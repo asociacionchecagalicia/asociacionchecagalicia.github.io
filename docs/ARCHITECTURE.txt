@@ -1,0 +1,54 @@
+
+System Architecture & Technical Blueprint
+
+Tech Stack
+- **Framework:** Vue 3 (Composition API)
+- **Language:** JavaScript (Strict mode, no 'any')
+- **Styling:** Tailwind CSS (Utility-first, no inline styles)
+- **Build Tool:** Vite
+- **Tooling:** ESLint + Prettier
+
+## 🧱 LAYER 2: HARD LAYOUT ENFORCEMENT
+To prevent "AI Drift" and chaotic spacing, the website structure MUST follow this hierarchy. Never use random divs for main sections.
+
+### 1. SectionWrapper.vue
+- **Responsibility:** Vertical spacing (padding-top/bottom: 64px) and background color logic.
+- **Rule:** Every new section starts here.
+
+### 2. ContainerWrapper.vue
+- **Responsibility:** Page width (max-width: 1200px), horizontal padding (24px), and centering.
+- **Rule:** Nest this inside SectionWrapper.
+
+### 3. HeadingBlock.vue (Optional but Powerful)
+- **Responsibility:** Consistent titles and subtitles across the site.
+- **Rule:** Use for every section heading to prevent AI from inventing new heading styles.
+
+Multilingual System (vue-i18n)
+- **Primary Language:** Czech ('cz') | Secondary: Spanish ('es').
+- **Persistence:** Save choice in `localStorage`.
+- **URL Structure:** `/cz/page-name` or `/es/nombre-de-pagina`.
+- **Implementation:** Update `<html lang="">` and navigation labels dynamically.
+
+Routing & Pages
+- **Structure:** Homepage, Supporting Pages, Legal/Privacy pages.
+- **404 Handling:** Language-aware `/cz/404` or `/es/404`. Must include a CTA back to the homepage.
+- **State:** Use Composition API reactive state and computed properties.
+
+Dynamic Content
+- **Google Calendar:** Must be lazy-loaded and contained in a responsive, performance-optimized container.
+- **Content Updates:** No CMS. Source of truth is centralized JSON files updated via GitHub commits.
+
+Analytics & Privacy
+- **Privacy-first:** No tracking cookies. No Facebook feeds or pixels.
+- **Tools:** Only Plausible or Simple Analytics (cookie-free mode).
+
+
+## 🧭 Content Structure Lock
+Each page must strictly follow this order for consistent storytelling:
+1. Hero → 2. Introduction → 3. Main Content → 4. Events/Community CTA → 5. Footer.
+
+## 🚀 Hosting & Deployment
+- **Platform:** GitHub Pages.
+- **Branch:** `main` for source code; `gh-pages` for the live build.
+- **Workflow:** GitHub Actions triggers a build on every push to `main`.
+- **Domain:** [your-username].github.io/[repo-name]

@@ -1,0 +1,30 @@
+
+
+# MODULE SKELETON TEMPLATE
+
+When I ask you to build a new "Module" or "Section," follow this exact structural pattern. 
+
+## 1. Structure (Layer 2 Lock)
+Every module MUST follow this nesting:
+<template>
+  <SectionWrapper :background="backgroundColor">
+    <ContainerWrapper>
+      <HeadingBlock :title="$t('module.title')" :subtitle="$t('module.subtitle')" />
+      
+      <div class="module-content">
+        <slot />
+      </div>
+
+    </ContainerWrapper>
+  </SectionWrapper>
+</template>
+
+## 2. Code Standards
+- **Props:** Use `defineProps` for any dynamic data (images, dates, links).
+- **i18n:** Every piece of text must reference the locale JSON.
+- **Vibe Check:** Apply `transform` transitions for any hover effects.
+- **Accessibility:** Ensure buttons have `aria-labels` and images have `alt` tags.
+
+## 3. Performance Check
+- Verify that no `width` or `height` animations are used.
+- Ensure any images are lazy-loaded.

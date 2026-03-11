@@ -1,0 +1,16 @@
+{
+  "header": {
+    "nav": {
+      "community": "Sobre la comunidad",
+      "meetings": "Cómo nos reunimos",
+      "participate": "Cómo participar"
+    },
+    "aria": {
+      "home": "Inicio",
+      "langSwitcher": "Cambiar idioma",
+      "openMenu": "Abrir navegación",
+      "closeMenu": "Cerrar navegación",
+      "skipToContent": "Ir al contenido"
+    }
+  }
+}

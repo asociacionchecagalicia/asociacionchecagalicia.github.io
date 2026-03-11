@@ -1,0 +1,43 @@
+Technical Guardrails & Performance Locks
+
+The "Never" List (Strict Prohibitions)
+- **NO LAYOUT SHIFT:** Never animate `width`, `height`, `left`, `top`, or `margin`.
+**NEVER ANIMATE:** width, height, left, top, or margins (Avoid Layout Shift).
+- **NO HARDCODING:** Never write text directly in HTML. Use `$t('key')`.
+- **NO JANK:** Never attach scroll listeners without debouncing.
+- **NO INLINE STYLES:** Use Tailwind utility classes only.
+- ** NO DEFAULT UTILITIES:** Never use default Tailwind colors (e.g. text-blue-500) or default spacing (e.g., p-4). ALWAYS use the custom tokens defined in tailwind.config.js (e.g., text-navy, p-space-2)
+
+Performance Requirements
+- **Animations:** Only use `transform` (scale, move) and `opacity`. 
+- **Target:** Smooth 60fps and a Lighthouse score of 90+.
+- **Optimization:** Fast loading for SVG filters and external embeds.
+
+Accessibility (WCAG AA Standards)
+- **Contrast:** Text 4.5:1 (AA) or 3:1 (Large text).
+- **Interactions:** Minimum 44px tap targets. Mandatory keyboard navigation and focus outlines.
+- **Semantics:** Use semantic HTML, ARIA labels for icons, and alt text for all images.
+- **Navigation:** Include a "Skip to Content" link.
+
+Responsiveness (Mobile-First)
+- **Breakpoints:** sm, md, lg, xl.
+- **Touch:** Hover interactions must degrade gracefully on touch devices.
+- **Navigation:** Mobile menu must be a slide panel with large tap targets.
+
+Output Requirements
+When generating code, Claude MUST provide:
+1. Updated file tree.
+2. Production-ready, full code snippets.
+3. No unnecessary explanations unless asked.
+
+- ## 🚢 DEPLOYMENT LOCK - ROOT DOMAIN
+- Since the repo is 'asociacionchecagalicia.github.io', ALWAYS set base: '/' in vite.config.js.
+- NEVER use a subfolder path (e.g., /repo-name/) for the base.
+- Ensure all assets in the build are referenced relative to the root '/'[cite: 14].
+
+## 🏎️ FONT & ASSET LOCK
+- **Implementation:** ALWAYS use Google Fonts via `<link>` in the `index.html` head. 
+- **Preconnect:** Ensure `preconnect` hints for Google Fonts are included to optimize loading speeds.
+- **Fallback:** Always include generic fallbacks (sans-serif) to prevent Layout Shift (CLS).
+
+

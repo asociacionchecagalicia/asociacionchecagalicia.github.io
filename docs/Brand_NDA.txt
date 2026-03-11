@@ -1,0 +1,65 @@
+Brand Identity & Design Tokens
+
+## Visual DNA
+- **Tone:** Warm, human, modern, calm. Scandinavian cultural institution vibe.
+- **Aesthetic:** Minimal, breathable, line-based.
+- **Photography:** Natural light, warm-toned, human-centered.
+
+## Color Palette
+- Navy (Primary): #001F3F
+- Coral (Accent): #E5534B
+- Sky (Utility): #5FA8D3
+- Off-white (Background): #F9F9F9
+- White: #FFFFFF
+- Success: #2E7D32 | Warning: #ED6C02 | Error: #C62828
+- Border Soft: rgba(0, 31, 63, 0.1)
+
+## Typography
+- Headings: Montserrat (Weight: 700 suggested)
+- Body: Open Sans (Weight: 400 suggested)
+- H1: 48px | H2: 34px | H3: 24px | Body: 18px | Small: 14px
+- Line Height: Body (1.5), Headings (1.2)
+
+## Spacing System (8px Base)
+- --space-1: 8px  | --space-2: 16px | --space-3: 24px
+- --space-4: 32px | --space-5: 48px | --space-6: 72px
+
+## Layout Constants
+- Max Width: 1200px
+- Content Width: 1100px
+- Desktop Side Padding: 24px
+- Mobile Side Padding: 16px
+
+## 🖼 Visual References
+- **Master UI Reference:** See `/design-references/figma-hero.png` for exact spacing and "vibe."
+- **Logo Usage:** Use `/public/assets/logo.svg`. Always maintain 100px clear space.
+- **Color Accuracy:** If in doubt, refer to `/design-references/figma-colors.png`.
+
+# Logo System & Visual Assets
+
+## 🖼 Logo Variants
+- **Full Logo (`logo-full.svg`):** Symbol + Full Name. Use for Desktop Header, Footer, and About pages.
+- **Compact Logo (`logo-horizontal.svg`):** Symbol + Short Name ("Checa de Galicia"). Use for Tablet and medium layouts.
+- **Icon Mark (`logo-icon.svg`):** Symbol only. Use for Mobile Header (375px - 768px), Favicons, and Mobile Menu.
+- **Inverted Logos:** Use `logo-white.svg` on dark backgrounds (if any) and `logo-black.svg` for high-contrast needs.
+
+## 📏 Sizing & Clear Space
+- **Mobile Header Height:** 36px (32px–40px range).
+- **Desktop Header Height:** 44px (Standard).
+- **Clear Space Rule:** Minimum space around the logo must equal the height of the inner symbol. 
+- **Exclusion Zone:** No motifs, buttons, or text within 100px (Desktop) or 48px (Mobile) of the logo.
+
+## 🎨 Logo Color Rules
+- **Approved Colors:** Navy (#001F3F), Coral (#E5534B), Sky (#5FA8D3).
+- **Prohibitions:** No gradients, no drop shadows, no transparency, no color modifications.
+
+## 📁 Favicons & App Icons
+- `favicon-32.png` / `favicon-16.png`
+- `apple-touch-icon.png` (57px/180px)
+
+## 🅰️ Font Implementation (Zero-Budget Lock)
+- **Source:** Google Fonts (Free).
+- **Method:** Standard HTML <link> in `index.html`.
+- **Families:** - Montserrat:700 (Headings)
+  - Open Sans:400,600 (Body)
+- **CSS Rule:** Define these as CSS variables in your main Tailwind/CSS file for consistency.

@@ -1,0 +1,16 @@
+{
+  "header": {
+    "nav": {
+      "community": "O komunitě",
+      "meetings": "Jak se potkáváme",
+      "participate": "Jak se zapojit"
+    },
+    "aria": {
+      "home": "Domů",
+      "langSwitcher": "Změnit jazyk",
+      "openMenu": "Otevřít navigaci",
+      "closeMenu": "Zavřít navigaci",
+      "skipToContent": "Přejít na obsah"
+    }
+  }
+}

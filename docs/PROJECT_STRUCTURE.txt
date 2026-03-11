@@ -1,0 +1,58 @@
+# Project Structure
+
+asociacionchecagalicia.github.io/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
+├── public/
+│   ├── assets/
+│   │   ├── logo-full.svg
+│   │   ├── logo-horizontal.svg
+│   │   ├── logo-icon.svg
+│   │   ├── logo-white.svg
+│   │   ├── logo-black.svg
+│   │   ├── flag-es.svg
+│   │   └── flag-cz.svg
+│   └── favicons/
+│       ├── favicon-32.png
+│       ├── favicon-16.png
+│       └── apple-touch-icon.png
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── SectionWrapper.vue
+│   │   │   ├── ContainerWrapper.vue
+│   │   │   └── HeadingBlock.vue
+│   │   ├── global/
+│   │   │   └── AppLogo.vue
+│   │   └── modules/
+│   │       └── Header/
+│   │           ├── AppHeader.vue
+│   │           ├── MobileMenu.vue
+│   │           └── LanguageSwitcher.vue
+│   ├── composables/
+│   │   ├── useLanguage.js
+│   │   └── useSEO.js
+│   ├── locales/
+│   │   ├── cz.json
+│   │   └── es.json
+│   ├── router/
+│   │   └── index.js
+│   ├── App.vue
+│   └── main.js
+├── docs/
+│   ├── ARCHITECTURE.txt
+│   ├── Brand_NDA.txt
+│   └── PROJECT_STRUCTURE.md
+├── prompts/
+│   ├── DESIGN_GUARDRAILS.txt
+│   ├── TECH_GUARDRAILS.txt
+│   └── SKELETON_MODULE.txt
+├── design-references/
+│   ├── figma-header.png
+│   └── figma-header-mobile.png
+├── CLAUDE.md
+├── index.html
+├── vite.config.js
+├── tailwind.config.js
+└── package.json
