@@ -1,49 +1,50 @@
-import { ref, computed } from 'vue'
-import czLocale from '@/locales/cz.json'
-import esLocale from '@/locales/es.json'
+import { ref } from 'vue'
+import cz from '../locales/cz.json'
+import es from '../locales/es.json'
 
-const locales = {
-  cz: czLocale,
-  es: esLocale
-}
+const locales = { cz, es }
+const currentLang = ref(localStorage.getItem('preferred-lang') || 'cz')
 
-const currentLang = ref('cz')
+// Initialize document.documentElement.lang on module load
+document.documentElement.lang = currentLang.value
 
 export function useLanguage() {
   const setLanguage = (lang) => {
-    if (lang !== 'cz' && lang !== 'es') {
-      lang = 'cz'
+    if (!locales[lang]) {
+      console.warn(`Language "${lang}" not found. Available: ${Object.keys(locales).join(', ')}`)
+      return
     }
+
     currentLang.value = lang
-    localStorage.setItem('preferredLanguage', lang)
+    localStorage.setItem('preferred-lang', lang)
     document.documentElement.lang = lang
   }
 
-  const getStoredLanguage = () => {
-    return localStorage.getItem('preferredLanguage') || 'cz'
+  const toggleLanguage = () => {
+    const newLang = currentLang.value === 'cz' ? 'es' : 'cz'
+    setLanguage(newLang)
   }
 
-  const $t = (key) => {
+  const t = (key) => {
     const keys = key.split('.')
-    let value = locales[currentLang.value]
+    let result = locales[currentLang.value]
 
     for (const k of keys) {
-      if (value && typeof value === 'object') {
-        value = value[k]
+      if (result && typeof result === 'object' && k in result) {
+        result = result[k]
       } else {
+        // Key path not found, return the original key
         return key
       }
     }
 
-    return value || key
+    return result
   }
 
-  const locale = computed(() => currentLang.value)
-
   return {
-    locale,
+    currentLang,
     setLanguage,
-    getStoredLanguage,
-    $t
+    toggleLanguage,
+    t
   }
 }

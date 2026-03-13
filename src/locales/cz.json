@@ -8,9 +8,15 @@
     "aria": {
       "home": "Domů",
       "langSwitcher": "Změnit jazyk",
+      "switchToCzech": "Přepnout do češtiny",
+      "switchToSpanish": "Přepnout do španělštiny",
       "openMenu": "Otevřít navigaci",
       "closeMenu": "Zavřít navigaci",
       "skipToContent": "Přejít na obsah"
+    },
+    "lang": {
+      "czech": "Čeština",
+      "spanish": "Español"
     }
   }
 }
