@@ -23,3 +23,4 @@ The production site is automatically deployed to:
 
 ---
 *Developed with ❤️ for the Czech community in Galicia.*
+trigger redeploy
