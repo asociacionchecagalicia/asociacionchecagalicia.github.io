@@ -18,5 +18,36 @@
       "czech": "Čeština",
       "spanish": "Español"
     }
+  },
+  "footer": {
+    "credits": "© 2026 Asociación Cultural Checa de Galicia. Todos los derechos reservados.",
+    "contact": {
+      "heading": "Contacto",
+      "email": "asociacionchecagalicia@gmail.com"
+    },
+    "resources": {
+      "heading": "Documentos para descargar",
+      "privacy": "Privacidad",
+      "reports": "Informes anuales"
+    },
+    "social": {
+      "heading": "Síguenos",
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "facebookAriaLabel": "Facebook — abre en nueva pestaña",
+      "instagramAriaLabel": "Instagram — abre en nueva pestaña"
+    },
+    "home": "Inicio"
+  },
+  "downloads": {
+    "title": "Documentos para descargar",
+    "heading": "Documentos para descargar",
+    "slug": "documentos-para-descargar",
+    "privacyHeading": "Privacidad",
+    "privacyFileName": "politica_privacidad_RGPD.pdf",
+    "privacyDownload": "Descargar documento",
+    "reportsHeading": "Informes anuales",
+    "reportsYear": "Informe anual 2026",
+    "reportsComingSoon": "Documento disponible próximamente."
   }
 }
