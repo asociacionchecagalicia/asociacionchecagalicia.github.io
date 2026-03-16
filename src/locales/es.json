@@ -49,5 +49,42 @@
     "reportsHeading": "Informes anuales",
     "reportsYear": "Informe anual 2026",
     "reportsComingSoon": "Documento disponible próximamente."
+  },
+  "home": {
+    "seo": {
+      "title": "Asociación Cultural Checa de Galicia",
+      "description": "Asociación que conecta familias checas, individuos y expatriados que viven en Galicia, España."
+    },
+    "hero": {
+      "headlineStart": "Dos mundos que se encuentran para crear",
+      "swapWords": ["algo en común", "una historia", "nuevas ideas"]
+    },
+    "greeting": {
+      "morning": "Buenos días",
+      "afternoon": "Buenas tardes",
+      "evening": "Buenas noches",
+      "body": "Bienvenidos a una comunidad donde el checo cobra vida lejos de casa. Somos una asociación legalmente registrada, reconocida por la Xunta de Galicia, que conecta a familias checas, individuos y expatriados que viven en Galicia."
+    },
+    "events": {
+      "heading": "Próximos eventos",
+      "subheading": "Resumen de los próximos encuentros y actividades que la comunidad organiza o apoya. La mayoría de los eventos se coordinan a través de Facebook o WhatsApp y son informales y abiertos a la comunidad. Los detalles y la información sobre cómo participar se encuentran siempre en cada evento específico.",
+      "cta": "Ver todos los eventos",
+      "calendarAriaLabel": "Calendario de próximos eventos"
+    },
+    "collaboration": {
+      "heading": "Cómo puedes participar",
+      "card1": {
+        "heading": "¿Quieres ayudar a construir la comunidad?",
+        "body": "Participa en el desarrollo de la comunidad como voluntario, forma parte del equipo y obtén la oportunidad de influir en la dirección de la asociación.",
+        "cta": "Descubrir más",
+        "imageAlt": "Manos de la comunidad unidas"
+      },
+      "card2": {
+        "heading": "¿Tienes una idea para un evento?",
+        "body": "Estamos abiertos a diferentes ideas para encuentros — desde celebraciones de tradiciones checas hasta eventos nuevos y originales. Comparte tu idea con nosotros y veremos qué se puede hacer realidad.",
+        "cta": "Descubrir más",
+        "imageAlt": "Ambiente de festival para inspirarse"
+      }
+    }
   }
 }

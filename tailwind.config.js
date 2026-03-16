@@ -4,6 +4,13 @@ export default {
     './index.html',
     './src/**/*.{vue,js}'
   ],
+  safelist: [
+    'text-coral',
+    'decoration-coral',
+    'underline',
+    'underline-offset-4',
+    'font-semibold'
+  ],
   theme: {
     extend: {
       colors: {

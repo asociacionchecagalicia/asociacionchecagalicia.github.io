@@ -11,7 +11,7 @@ const { currentLang, t } = useLanguage()
   <footer role="contentinfo" class="bg-white py-12 md:py-16">
     <ContainerWrapper>
       <!-- Main Footer Card -->
-      <div class="relative border border-sky rounded-xl p-8 md:p-12">
+      <div class="relative overflow-hidden border border-sky rounded-xl p-8 md:p-12">
         <!-- Grid Layout: 3 columns desktop, 2 tablet, stacked mobile -->
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
 
@@ -44,6 +44,8 @@ const { currentLang, t } = useLanguage()
             <RouterLink
               :to="'/' + currentLang + '/' + t('downloads.slug')"
               class="font-heading font-semibold text-[16px] text-navy hover:text-coral transition-colors duration-200 inline-flex items-center gap-1 w-fit"
+              active-class="text-coral underline decoration-coral underline-offset-4"
+              exact-active-class="text-coral underline decoration-coral underline-offset-4"
             >
               {{ t('footer.resources.heading') }}
               <ArrowRight :size="14" :stroke-width="1.5" />
@@ -54,6 +56,8 @@ const { currentLang, t } = useLanguage()
               <RouterLink
                 :to="'/' + currentLang + '/' + t('downloads.slug') + '#privacy'"
                 class="font-body text-[16px] text-navy hover:text-coral hover:underline transition-colors duration-200"
+                active-class="text-coral underline decoration-coral underline-offset-4"
+                exact-active-class="text-coral underline decoration-coral underline-offset-4"
               >
                 {{ t('footer.resources.privacy') }}
               </RouterLink>
@@ -61,6 +65,8 @@ const { currentLang, t } = useLanguage()
               <RouterLink
                 :to="'/' + currentLang + '/' + t('downloads.slug') + '#reports'"
                 class="font-body text-[16px] text-navy hover:text-coral hover:underline transition-colors duration-200"
+                active-class="text-coral underline decoration-coral underline-offset-4"
+                exact-active-class="text-coral underline decoration-coral underline-offset-4"
               >
                 {{ t('footer.resources.reports') }}
               </RouterLink>
@@ -100,8 +106,8 @@ const { currentLang, t } = useLanguage()
         </div>
 
         <!-- Visual Motif: Overlapping Circles (bottom-right) -->
-        <div class="absolute bottom-[-60px] right-[80px] w-[200px] h-[200px] rounded-full bg-coral opacity-[0.05] pointer-events-none" aria-hidden="true"></div>
-        <div class="absolute bottom-[-30px] right-[20px] w-[140px] h-[140px] rounded-full bg-sky opacity-[0.05] pointer-events-none" aria-hidden="true"></div>
+        <div class="absolute bottom-[-70px] right-[100px] w-[240px] h-[240px] rounded-full bg-coral opacity-[0.09] pointer-events-none" aria-hidden="true"></div>
+        <div class="absolute bottom-[-40px] right-[20px] w-[180px] h-[180px] rounded-full bg-sky opacity-[0.08] pointer-events-none" aria-hidden="true"></div>
       </div>
 
       <!-- Credits Bar -->

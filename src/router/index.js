@@ -24,6 +24,36 @@ const router = createRouter({
       path: '/:lang/documentos-para-descargar',
       name: 'downloads-es',
       component: DownloadsView
+    },
+    {
+      path: '/:lang/o-komunite',
+      name: 'community-cz',
+      component: () => import('@/views/CommunityView.vue')
+    },
+    {
+      path: '/:lang/sobre-la-comunidad',
+      name: 'community-es',
+      component: () => import('@/views/CommunityView.vue')
+    },
+    {
+      path: '/:lang/jak-se-potkavame',
+      name: 'meetings-cz',
+      component: () => import('@/views/MeetingsView.vue')
+    },
+    {
+      path: '/:lang/como-nos-reunimos',
+      name: 'meetings-es',
+      component: () => import('@/views/MeetingsView.vue')
+    },
+    {
+      path: '/:lang/jak-se-zapojit',
+      name: 'participate-cz',
+      component: () => import('@/views/ParticipateView.vue')
+    },
+    {
+      path: '/:lang/como-participar',
+      name: 'participate-es',
+      component: () => import('@/views/ParticipateView.vue')
     }
   ],
   scrollBehavior(to, from, savedPosition) {

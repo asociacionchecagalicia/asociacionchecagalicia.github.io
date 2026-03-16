@@ -8,7 +8,7 @@ const { t } = useLanguage()
 </script>
 
 <template>
-  <SectionWrapper background="#F9F9F9" class="relative">
+  <SectionWrapper background="#F9F9F9" class="relative overflow-hidden">
     <ContainerWrapper>
       <!-- Page Heading -->
       <h1 class="font-heading font-bold text-[48px] text-navy leading-tight tracking-tighter mb-12">
@@ -74,7 +74,7 @@ const { t } = useLanguage()
     </ContainerWrapper>
 
     <!-- Visual Motif: Overlapping Circles (top-right) -->
-    <div class="absolute top-[-60px] right-[-40px] w-[260px] h-[260px] rounded-full bg-coral opacity-[0.05] pointer-events-none" aria-hidden="true"></div>
-    <div class="absolute top-[40px] right-[60px] w-[180px] h-[180px] rounded-full bg-sky opacity-[0.06] pointer-events-none" aria-hidden="true"></div>
+    <div class="absolute top-[-80px] right-[-50px] w-[300px] h-[300px] rounded-full bg-coral opacity-[0.08] pointer-events-none" aria-hidden="true"></div>
+    <div class="absolute top-[40px] right-[80px] w-[220px] h-[220px] rounded-full bg-sky opacity-[0.10] pointer-events-none" aria-hidden="true"></div>
   </SectionWrapper>
 </template>

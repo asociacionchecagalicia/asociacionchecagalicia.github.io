@@ -49,5 +49,42 @@
     "reportsHeading": "Výroční zprávy",
     "reportsYear": "Výroční zpráva 2026",
     "reportsComingSoon": "Dokument bude brzy k dispozici."
+  },
+  "home": {
+    "seo": {
+      "title": "Asociación Cultural Checa de Galicia",
+      "description": "Spolek propojující české a slovenské rodiny, jednotlivce a expatrioty žijící v Galicii, Španělsko."
+    },
+    "hero": {
+      "headlineStart": "Spojujeme dva světy v jeden společný",
+      "swapWords": ["příběh", "prostor", "nápad"]
+    },
+    "greeting": {
+      "morning": "Dobré ráno",
+      "afternoon": "Dobré odpoledne",
+      "evening": "Dobrý večer",
+      "body": "Vítejte v komunitě, kde čeština žije i daleko od domova. Jsme legálně registrovaný spolek, uznaný Xunta de Galicia, který propojuje české rodiny, jednotlivce a expaty žijící v Galicii."
+    },
+    "events": {
+      "heading": "Nadcházející akce",
+      "subheading": "Přehled chystaných setkání a akcí, které komunita organizuje nebo podporuje. Většina akcí se domlouvá přes Facebook nebo WhatsApp a je neformální a otevřená komunitě. Podrobnosti a informace o přihlášení najdete vždy u konkrétní akce.",
+      "cta": "Zobrazit všechny akce",
+      "calendarAriaLabel": "Kalendář nadcházejících akcí"
+    },
+    "collaboration": {
+      "heading": "Jak se můžeš zapojit",
+      "card1": {
+        "heading": "Chceš pomoct budovat komunitu?",
+        "body": "Zapoj se do rozvoje komunity jako dobrovolník, staň se součástí týmu a získej prostor ovlivňovat směřování spolku.",
+        "cta": "Zjistit více",
+        "imageAlt": "Ruce komunity spojené dohromady"
+      },
+      "card2": {
+        "heading": "Máš nápad na akci?",
+        "body": "Jsme otevřeni různým nápadům na setkávání — od oslav českých tradic až po nové, neotřelé akce. Sdílej svůj nápad s námi a uvidíme, co se dá uskutečnit.",
+        "cta": "Zjistit více",
+        "imageAlt": "Festivalová atmosféra pro inspiraci"
+      }
+    }
   }
 }

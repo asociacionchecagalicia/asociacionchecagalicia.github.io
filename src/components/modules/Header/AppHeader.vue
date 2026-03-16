@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-import { RouterLink } from 'vue-router'
+import { RouterLink, useRoute } from 'vue-router'
 import AppLogo from '@/components/global/AppLogo.vue'
 import ContainerWrapper from '@/components/layout/ContainerWrapper.vue'
 import LanguageSwitcher from './LanguageSwitcher.vue'
@@ -8,6 +8,12 @@ import MobileMenu from './MobileMenu.vue'
 import { useLanguage } from '@/composables/useLanguage'
 
 const { t, currentLang } = useLanguage()
+const route = useRoute()
+
+const isActive = (czSlug, esSlug) => {
+  return route.path === `/${currentLang.value}/${czSlug}` ||
+         route.path === `/${currentLang.value}/${esSlug}`
+}
 
 const isScrolled = ref(false)
 const isMenuOpen = ref(false)
@@ -109,23 +115,23 @@ onUnmounted(() => {
         <!-- Desktop: Navigation (Center) -->
         <nav class="hidden xl:flex items-center gap-space-4">
           <RouterLink
-            :to="`/${currentLang}/o-komunitě`"
+            :to="`/${currentLang}/${currentLang === 'cz' ? 'o-komunite' : 'sobre-la-comunidad'}`"
             class="font-body text-[16px] font-medium text-navy hover:-translate-y-px transition-transform duration-200"
-            active-class="text-coral border-b-2 border-coral pb-0.5"
+            :class="isActive('o-komunite', 'sobre-la-comunidad') ? 'text-coral underline decoration-coral underline-offset-4 font-semibold' : ''"
           >
             {{ t('header.nav.community') }}
           </RouterLink>
           <RouterLink
-            :to="`/${currentLang}/jak-se-potkáváme`"
+            :to="`/${currentLang}/${currentLang === 'cz' ? 'jak-se-potkavame' : 'como-nos-reunimos'}`"
             class="font-body text-[16px] font-medium text-navy hover:-translate-y-px transition-transform duration-200"
-            active-class="text-coral border-b-2 border-coral pb-0.5"
+            :class="isActive('jak-se-potkavame', 'como-nos-reunimos') ? 'text-coral underline decoration-coral underline-offset-4 font-semibold' : ''"
           >
             {{ t('header.nav.meetings') }}
           </RouterLink>
           <RouterLink
-            :to="`/${currentLang}/jak-se-zapojit`"
+            :to="`/${currentLang}/${currentLang === 'cz' ? 'jak-se-zapojit' : 'como-participar'}`"
             class="font-body text-[16px] font-medium text-navy hover:-translate-y-px transition-transform duration-200"
-            active-class="text-coral border-b-2 border-coral pb-0.5"
+            :class="isActive('jak-se-zapojit', 'como-participar') ? 'text-coral underline decoration-coral underline-offset-4 font-semibold' : ''"
           >
             {{ t('header.nav.participate') }}
           </RouterLink>
