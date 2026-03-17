@@ -86,5 +86,61 @@
         "imageAlt": "Ambiente de festival para inspirarse"
       }
     }
+  },
+  "community": {
+    "seo": {
+      "title": "Sobre la comunidad — Asociación Cultural Checa de Galicia",
+      "description": "La historia del origen de la comunidad checa en Galicia. Tres familias, una asociación y un lugar donde el checo vive lejos de casa."
+    },
+    "hero": {
+      "headline": "El lugar donde se encuentran dos hogares",
+      "imageAlt": "Comunidad de familias checas en Galicia"
+    },
+    "about": {
+      "heading": "Sobre nosotros y nuestro equipo",
+      "subheading": "Todo empezó con tres familias.",
+      "p1": "Al principio éramos tres familias con niños pequeños. Nuestras parejas son españoles o expatriados y queríamos una sola cosa: que nuestros hijos escucharan checo también fuera de casa, que jugaran, rieran y crearan amistades de forma natural en ese idioma.",
+      "p3": "Con el tiempo también conocimos a otros checos y eslovacos en Galicia — familias, parejas y personas que simplemente querían conectar, compartir o hablar en su propio idioma de vez en cuando. Entonces entendimos que lo que vivíamos nosotros también podía tener sentido para otros.",
+      "p4": "La comunidad fue fundada por tres mujeres, tres madres y tres iniciadoras, pero el equipo no termina con nosotras. La asociación se está construyendo poco a poco y cualquiera puede formar parte de ella.",
+      "listIntro": "Buscamos personas que quieran:",
+      "list1": "ayudar a organizar eventos",
+      "list2": "participar en la comunicación",
+      "list3": "aportar nuevas ideas",
+      "list4": "o simplemente echar una mano",
+      "imageAlt": "Familias paseando por el paisaje gallego"
+    },
+    "why": {
+      "heading": "Por qué fundamos la asociación",
+      "subheading": "Porque juntos es más fácil encontrarse.",
+      "p5": "Sí, podemos reunirnos de forma informal y de hecho lo hacemos. Pero nos llevó mucho tiempo encontrarnos. Si hubiéramos sabido antes unos de otros, nuestra adaptación en Galicia habría sido mucho más sencilla.",
+      "listIntro": "Con la creación de la asociación queremos:",
+      "list1": "facilitar a otros checos y eslovacos el acceso a la comunidad",
+      "list2": "crear un lugar claro donde la comunidad pueda encontrarse",
+      "list3": "compartir nuestro idioma, cultura y tradiciones",
+      "list4": "construir algo con sentido a largo plazo",
+      "p7": "Una asociación oficial implica responsabilidad, pero también abre nuevas oportunidades. Creemos que la energía que invertimos volverá en forma de relaciones más fuertes, mejores actividades y una comunidad visible y reconocida.",
+      "imageAlt": "Figuras de papel tomadas de la mano"
+    },
+    "who": {
+      "heading": "Quién forma parte de la comunidad",
+      "p8": "Nuestra comunidad crece alrededor del idioma checo, la cultura y los vínculos que queremos mantener en Galicia.",
+      "p9": "También damos la bienvenida a españoles y otros expatriados que sienten interés por la República Checa y su cultura y quieren conocerla de cerca a través de encuentros y experiencias compartidas.",
+      "p10": "La asociación se basa principalmente en el checo, pero el eslovaco también tiene su lugar. Siempre nos alegra recibir a familias y personas eslovacas — nuestros idiomas y culturas se complementan de forma natural.",
+      "rulesIntro": "Nuestra comunidad se basa en reglas simples:",
+      "rule1": "sin odio ni discriminación",
+      "rule2": "respeto por diferentes caminos de vida y opiniones",
+      "rule3": "disposición a contribuir con tiempo, ideas o apoyo",
+      "rule4": "buscar espacios y relaciones que te apoyen y te animen",
+      "quote": "No importa de dónde vengas. Lo importante es a dónde quieres pertenecer.",
+      "imageAlt": "Letrero de neón que dice únete a nosotros"
+    },
+    "sponsors": {
+      "heading": "Patrocinadores y colaboración",
+      "subheading": "Juntos podemos más",
+      "body": "Creemos que pronto estableceremos colaboraciones con patrocinadores y socios que compartan nuestra visión. Gracias a ello podremos desarrollar mejores programas, eventos y actividades tanto para niños como para adultos.",
+      "ctaLabel": "¿Te interesa colaborar?",
+      "ctaButton": "Escríbenos",
+      "ctaAriaLabel": "Enviar email a asociacionchecagalicia@gmail.com"
+    }
   }
 }
