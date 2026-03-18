@@ -142,5 +142,83 @@
       "ctaButton": "Escríbenos",
       "ctaAriaLabel": "Enviar email a asociacionchecagalicia@gmail.com"
     }
+  },
+  "meetings": {
+    "seo": {
+      "title": "Cómo nos reunimos — Asociación Cultural Checa de Galicia",
+      "description": "Actividades y encuentros de la comunidad checa en Galicia — para niños, adultos y eventos comunitarios."
+    },
+    "hero": {
+      "headline": "Cómo se reúne nuestra comunidad",
+      "imageAlt": "Calendario y decoraciones para eventos comunitarios"
+    },
+    "activities": {
+      "heading": "Actividades",
+      "card1": {
+        "title": "Para niños",
+        "imageAlt": "Parque infantil y actividades para niños",
+        "body": "Queremos crear un entorno donde el checo se convierta en una parte natural del juego y de la amistad. Los encuentros pueden tener diferentes formas:",
+        "list1": "actividades lúdicas relacionadas con el idioma",
+        "list2": "celebraciones compartidas de tradiciones y festividades checas",
+        "list3": "encuentros informales de familias con niños",
+        "list4": "una \"mini guardería\" comunitaria basada en pasar tiempo juntos",
+        "outro": "El objetivo no es la enseñanza formal, sino la experiencia de que el idioma forma parte de la vida cotidiana."
+      },
+      "card2": {
+        "title": "Para adultos",
+        "imageAlt": "Amigos adultos reuniéndose al atardecer",
+        "body": "La comunidad también es un espacio para adultos que quieren compartir la experiencia de vivir entre culturas. Los encuentros para adultos ofrecen:",
+        "list1": "un espacio para nuevos contactos y amistades",
+        "list2": "networking informal",
+        "list3": "intercambio de experiencias prácticas de la vida en la región",
+        "outro": "Al principio, lo más importante es simplemente conocernos."
+      },
+      "card3": {
+        "title": "Eventos comunitarios y encuentros compartidos",
+        "imageAlt": "Banderas checas en una festividad comunitaria",
+        "body": "A lo largo del año también nos reunimos de forma natural en torno a las tradiciones y festividades checas. Estos momentos conectan a niños y adultos y crean recuerdos compartidos.",
+        "list1": "tradiciones y festividades checas",
+        "list2": "recuerdos compartidos entre niños y adultos",
+        "list3": "encuentros espontáneos según las necesidades de la comunidad",
+        "outro": "Además de los eventos planificados, también surgen encuentros espontáneos según lo que la comunidad necesite en cada momento."
+      },
+      "flipHint": "Haz clic para más info",
+      "flipBack": "↻ volver"
+    },
+    "ideas": {
+      "heading": "Espacio para tus ideas",
+      "iconAlt": "Icono de calendario de eventos",
+      "p1": "Una comunidad nace de personas que quieren compartir algo. Ya sea un paseo por la costa, una lectura para niños o el intercambio de experiencias de la vida en el extranjero.",
+      "p2": "Nuestra comunidad tiene una base natural en A Coruña, donde nos reunimos con más frecuencia. Sin embargo, también apoyamos con gusto la creación de actividades en otras ciudades. Para facilitar la planificación y mantener el ambiente cercano y no comercial de nuestros encuentros, estas actividades se realizan bajo el marco de la Asociación.",
+      "subheading": "¿Tienes una idea para un encuentro? ¡Nos encantaría que te pusieras en contacto!",
+      "intro": "¿Tienes una idea para un encuentro, taller o excursión interesante? Nuestra comunidad crece gracias a la iniciativa de sus miembros. La asociación funciona como una plataforma que te ayuda a dar vida a tu idea.",
+      "benefitsHeading": "Lo que obtienes como organizador:",
+      "benefit1Title": "Patrocinio y credibilidad",
+      "benefit1Body": "Patrocinio y credibilidad de una asociación oficial de la diáspora reconocida por la Xunta de Galicia.",
+      "benefit2Title": "Promoción de tu evento",
+      "benefit2Body": "Promoción de tu evento en nuestra web, redes sociales y boletín informativo.",
+      "benefit3Title": "Apoyo en la coordinación",
+      "benefit3Body": "Apoyo en la coordinación y búsqueda de espacios adecuados en La Coruña o en otras zonas de Galicia.",
+      "benefit4Title": "Espacio para la autorrealización",
+      "benefit4Body": "Si eres especialista en algún área o creador, te permitimos compartir tus conocimientos con la comunidad en un formato no comercial.",
+      "stepsHeading": "¿Cómo participar?",
+      "stepsIntro": "Para planificar de manera efectiva, considera antes de enviar tu propuesta:",
+      "step1Title": "Tipo de encuentro",
+      "step1Body": "para niños, adultos, excursión o celebración de tradiciones",
+      "step2Title": "Propósito del evento",
+      "step2Body": "compartir experiencias, cultura, diversión",
+      "step3Title": "Fecha y lugar aproximado",
+      "step3Body": "cuándo y dónde imaginas el encuentro",
+      "step4Title": "Tu rol",
+      "step4Body": "si dirigirás el evento tú solo o buscas un compañero dentro de la comunidad",
+      "stepsOutro": "Cada propuesta se evalúa individualmente para que se alinee con la visión de nuestra comunidad y no se solape con otros planes."
+    },
+    "cta": {
+      "heading": "¿Quieres enviarnos tu idea?",
+      "body": "Cada propuesta se evalúa individualmente para que se alinee con la visión de nuestra comunidad.",
+      "button": "¡Escríbenos!",
+      "emailSubject": "Propuesta de reunión — web",
+      "ariaLabel": "Enviar email con propuesta de encuentro a asociacionchecagalicia@gmail.com"
+    }
   }
 }

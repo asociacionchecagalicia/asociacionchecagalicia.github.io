@@ -1,0 +1,173 @@
+Page 2 About Events
+Hero Image 1: About events_header_calendar_photo
+
+
+Section: Hero
+Image 1:  About events_header_calendar_photo
+Image 1 placement: through the whole section
+Image 1 fill overlay: colour - 5FA8D3, fill: 60%
+Headline placement: on top of the About events_header_calendar_photo
+
+Headline (heading 1)
+Effect: drop white shadow
+text: 
+cz:Jak se potkává naše komunita
+Colour of headline:001F3F
+es: Cómo se reúne nuestra comunidad
+
+Section
+cz: Aktivity
+es: Actividades
+
+3 cards:
+Card 1 Front text: 
+Image 2: Events_for_kids_card - photo
+cz: Pro děti
+es: Para niños
+
+Card 1 text at the back of the card:
+cz:Chceme vytvořit prostředí, kde se čeština stává přirozenou součástí hry a přátelství.
+Setkávání mohou mít různou podobu:
+hravé jazykové aktivity
+společné oslavy českých svátků
+volná setkávání rodin s dětmi
+komunitní „mini školka“ formou společného času
+
+Cílem není výuka, ale zkušenost, že jazyk patří do života.
+
+es:Queremos crear un entorno donde el checo se convierta en una parte natural del juego y de la amistad.
+Los encuentros pueden tener diferentes formas:
+
+actividades lúdicas relacionadas con el idioma
+
+celebraciones compartidas de tradiciones y festividades checas
+
+encuentros informales de familias con niños
+
+una “mini guardería” comunitaria basada en pasar tiempo juntos
+
+El objetivo no es la enseñanza formal, sino la experiencia de que el idioma forma parte de la vida cotidiana.
+
+Card 2 front text:
+Image 3: About events_for adults_photo
+cz: Pro dospělé
+es: Para adultos
+
+Card 2 text at the back of the card:
+cz: Komunita je také místem pro dospělé, kteří chtějí sdílet zkušenost života mezi kulturami.
+Setkávání pro dospělé přinášejí:
+prostor pro nové kontakty a přátelství
+neformální networking
+sdílení praktických zkušeností ze života v regionu
+
+Na začátku jde hlavně o poznávání se. 
+
+es: La comunidad también es un espacio para adultos que quieren compartir la experiencia de vivir entre culturas.
+Los encuentros para adultos ofrecen:
+
+un espacio para nuevos contactos y amistades
+
+networking informal
+
+intercambio de experiencias prácticas de la vida en la región
+
+Al principio, lo más importante es simplemente conocernos.
+
+Card 3 front text:
+Image 3: About events_community_flag - photo
+cz: Společné a komunitní akce
+es: Eventos comunitarios y encuentros compartidos
+
+Card 3 text at the back of the card:
+cz: Během roku se přirozeně potkáváme také kolem českých tradic a svátků. 
+
+Tyto momenty propojují děti i dospělé a vytvářejí společné vzpomínky.
+
+Vedle plánovaných akcí vznikají i spontánní setkání podle toho, co komunita právě potřebuje.
+
+es:A lo largo del año también nos reunimos de forma natural en torno a las tradiciones y festividades checas.
+
+Estos momentos conectan a niños y adultos y crean recuerdos compartidos.
+
+Además de los eventos planificados, también surgen encuentros espontáneos según lo que la comunidad necesite en cada momento.
+
+Block of text
+Heading 1
+cz: Prostor pro vaše nápady
+es: Espacio para tus ideas
+
+Paragraph 1
+cz: Komunita vzniká z lidí, kteří chtějí něco sdílet. Ať už jde o společnou procházku po pobřeží, čtení pro děti nebo sdílení zkušeností ze života v zahraničí.
+Naše společenství má přirozenou základnu v A Coruña, kde se setkáváme nejčastěji. Rádi ale podpoříme vznik aktivit i v dalších městech. Abychom si usnadnili plánování a zachovali přátelskou a nekomerční atmosféru našich setkání, zastřešujeme tyto aktivity pod hlavičkou Asociace.
+
+es: Una comunidad nace de personas que quieren compartir algo. Ya sea un paseo por la costa, una lectura para niños o el intercambio de experiencias de la vida en el extranjero.
+
+Nuestra comunidad tiene una base natural en A Coruña, donde nos reunimos con más frecuencia. Sin embargo, también apoyamos con gusto la creación de actividades en otras ciudades. Para facilitar la planificación y mantener el ambiente cercano y no comercial de nuestros encuentros, estas actividades se realizan bajo el marco de la Asociación.
+
+Heading 2 with colar colour
+text below the heading
+cz:Máte nápad na setkání? Budeme rádi, když se ozvete!
+es: ¿Tienes una idea para un encuentro? ¡Nos encantaría que te pusieras en contacto!
+
+Paragraph 2
+cz: Máte nápad na zajímavé setkání, workshop nebo výlet?
+Naše komunita roste díky iniciativě svých členů. Asociace funguje jako platforma, která vám pomůže vdechnout nápadu život.
+
+Co získáte jako organizátor:
+
+Záštitu a důvěryhodnost oficiální krajanské organizace.
+
+Propagaci vaší akce na našem webu, sociálních sítích a v newsletteru.
+
+Pomoc s koordinací a hledáním vhodného prostoru v La Coruni či jiných částech Galicie.
+
+Prostor pro seberealizaci: Pokud jste odborníkem v určitém oboru nebo autorem, rádi vám umožníme sdílet vaše znalosti s komunitou (v rámci nekomerčního formátu).
+
+Jak na to?
+Abychom mohli plánovat efektivně, zkuste si před odesláním nápadu promyslet:
+
+Typ setkání (pro děti, dospělé, společný výlet či oslavu tradic)
+
+Smysl akce (sdílení zkušeností, kultura, zábava)
+
+Přibližný čas a místo konání
+
+Vaši roli – zda akci povedete sami, nebo hledáte v komunitě parťáka
+
+Každý podnět posuzujeme individuálně, aby ladil s vizí naší komunity a nekryl se s jinými plány.
+
+Chcete nám poslat svůj nápad?
+📧 Napište nám!
+
+es: ¿Tienes una idea para un encuentro, taller o excursión interesante?
+Nuestra comunidad crece gracias a la iniciativa de sus miembros. La asociación funciona como una plataforma que te ayuda a dar vida a tu idea.
+
+Lo que obtienes como organizador:
+
+Patrocinio y credibilidad de una asociación oficial de la diáspora.
+
+Promoción de tu evento en nuestra web, redes sociales y boletín informativo.
+
+Apoyo en la coordinación y búsqueda de espacios adecuados en La Coruña o en otras zonas de Galicia.
+
+Espacio para la autorrealización: si eres especialista en algún área o creador, te permitimos compartir tus conocimientos con la comunidad (en un formato no comercial).
+
+¿Cómo participar?
+Para planificar de manera efectiva, considera antes de enviar tu propuesta:
+
+Tipo de encuentro (para niños, adultos, excursión o celebración de tradiciones)
+
+Propósito del evento (compartir experiencias, cultura, diversión)
+
+Fecha y lugar aproximado
+
+Tu rol – si dirigirás el evento tú solo o buscas un compañero dentro de la comunidad
+
+Cada propuesta se evalúa individualmente para asegurarnos de que esté alineada con la visión de nuestra comunidad y no se solape con otros planes.
+
+¿Quieres enviarnos tu idea?
+📧 ¡Escríbenos!
+
+
+
+

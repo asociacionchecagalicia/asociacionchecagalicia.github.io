@@ -1,0 +1,239 @@
+Page 3 How to participate
+Hero Image 1: How to join_hero_photo.png
+
+
+Section: Hero
+Image 1:  How to join_hero_photo.png
+Image 1 placement: through the whole section
+Image 1 fill overlay: colour - 5FA8D3, fill: 60%
+Headline placement: on top of the image
+
+Headline (heading 1)
+Effect: drop white shadow
+text: 
+cz: Staň se součástí komunity
+Colour of headline:001F3F
+es: Forma parte de nuestra comunidad
+
+Section 1 
+Use of icon next to the heading: Ideas_icon.svg
+Heading H2 
+cz: Přijďte mezi nás
+es: Únete a nosotros
+
+Text below the heading
+cz:Nejjednodušší způsob, jak se zapojit, je přijít na akci nebo setkání, které vás zaujme.
+Většina našich aktivit je neformální a otevřená celé komunitě.
+Nemusíte se registrovat ani nic vysvětlovat — stačí přijít.
+
+es:La forma más sencilla de participar es asistir a un evento o encuentro que te llame la atención.
+La mayoría de nuestras actividades son informales y están abiertas a toda la comunidad.
+No necesitas registrarte ni explicar nada — simplemente ven.
+
+CTA below the text
+cz:Zobrazit kalendář akcí
+es:Ver calendario de eventos
+
+Section 2
+Use of the icon next to the heading: Events_icon.svg
+Heading 2
+cz: Zůstaňte v kontaktu
+es: Mantente en contacto
+
+cz: Komunita žije nejen na setkáních, ale i online.
+Přidejte se do našich komunikačních kanálů a zůstaňte v obraze.
+👉 Facebook skupina
+👉 Instagram
+Sdílíme zde novinky, nápady na setkání a informace o akcích.
+
+es: La comunidad vive no solo en los encuentros, sino también online.
+Únete a nuestros canales de comunicación y mantente al día.
+👉 Grupo de Facebook
+👉 Instagram
+Compartimos novedades, ideas para encuentros e información sobre eventos.
+
+Divider
+Text inside the divider
+cz: Chcete se zapojit aktivněji?
+es: ¿Quieres involucrarte más activamente?
+
+Image 2: How to join_asociacion_photo.png
+Image 2 placed below the divider
+
+Two blocks below the image
+Paragraph 1
+cz: Dva způsoby, jak přiložit ruku k dílu
+Ať už chcete pomoci jednorázově nebo se podílet na vedení spolku — obojí má smysl a obojí vítáme.
+es: Dos formas de poner manos a la obra
+Ya sea que quiera ayudar de manera puntual o participar en la gestión de la asociación, ambas opciones tienen sentido y las valoramos.
+
+Block 1
+cz: Staňte se dobrovolníkem
+Pomozte nám s konkrétní akcí nebo dovedností. Například:
+
+- Pomoc s přípravou prostor pro České oslavy
+
+- Pečení, vaření nebo příprava materiálů pro děti
+
+- Fotografování našich setkání
+
+📧 Napište nám — chci pomáhat nárazově
+
+es: Conviértase en voluntario
+Ayúdenos con una acción concreta o aportando sus habilidades. Por ejemplo:
+
+- Ayuda con la preparación de espacios para las Celebraciones Checas
+
+- Hornear, cocinar o preparar materiales para niños
+
+- Fotografiar nuestros encuentros
+
+📧 Escríbanos — quiero ayudar puntualmente
+
+Block 2
+cz: Staňte se pilířem spolku
+Podílejte se na vedení a růstu naší komunity.
+
+Administrativa a péče o komunitu
+
+Granty a dotace — Španělsko i ČR
+
+Sociální sítě a PR
+
+Koordinace akcí a setkání
+
+📧 Napište nám — mám zájem o aktivní roli
+
+es: Conviértase en un pilar de la asociación
+Participe en la gestión y el crecimiento de nuestra comunidad.
+
+Administración y gestión de comunidad
+
+Subvenciones y ayudas — España y República Checa
+
+Redes sociales y PR
+
+Coordinación de eventos y encuentros
+
+📧 Escríbanos — estoy interesado en un rol activo
+
+CTA below the text only in this block 2
+cz:⬇️ Zobrazit konkrétní role, které hledáme
+es: ⬇️ Mostrar los roles específicos que buscamos
+
+
+Section of Cards - 4 Cards - Each role on one card
+cz: 
+Card 1
+Role: Administrativa & péče o komunitu
+
+Popis:
+Zajištění hladkého chodu spolku po organizační stránce a péče o naši členskou základnu.
+
+Úkoly:
+Správa seznamu členů a dobrovolníků
+Evidence přihlášek a základní dokumentace
+Organizace interních informací (Google Drive apod.)
+Podpora týmu v administrativních úkolech
+
+Profil:
+Člověk, který má rád pořádek, systém a spolehlivost. Dotahuje věci do konce.
+
+Card 2
+Role: Granty a dotace (Fundraising)
+
+Popis:
+Získávání prostředků pro naše kulturní projekty.
+
+Úkoly:
+Vyhledávání grantových výzev (ČR i Španělsko)
+Příprava podkladů a žádostí
+
+Profil:
+Trpělivý a analytický typ, kterému nevadí práce s informacemi a úředními texty.
+
+Card 3
+Role: Sociální sítě a PR
+
+Popis:
+Budování značky české komunity ve Španělsku.
+
+Úkoly:
+Správa Facebooku a Instagramu
+Tvorba obsahu (např. v Canvě)
+Focení a sdílení momentů z akcí
+
+Profil:
+Kreativní duše se smyslem pro estetiku a komunikaci.
+
+Card 4
+Role: Koordinace akcí (Event Manager)
+
+Popis:
+Srdce našich setkání.
+
+Úkoly:
+Organizace logistiky (místo, program, drobnosti)
+Komunikace s partnery a účastníky
+Pomoc s průběhem akcí na místě
+
+Profil:
+Akční člověk, který se nebojí mluvit s lidmi a řešit věci za pochodu
+
+es:
+Card 1
+Role1: Administración & gestión de comunidad
+
+Descripción:
+Asegurar el buen funcionamiento interno de la asociación y el cuidado de nuestra comunidad.
+
+Tareas:
+Gestión de la base de datos de miembros y voluntarios
+Registro de solicitudes y documentación básica
+Organización de información interna (Google Drive, etc.)
+Apoyo al equipo en tareas administrativas
+
+Perfil:
+Persona organizada, fiable y con atención al detalle. Le gusta tener las cosas en orden.
+
+Card 2
+Role: Subvenciones & Fundraising
+
+Descripción:
+Obtención de recursos para nuestros proyectos culturales.
+
+Tareas:
+Búsqueda de convocatorias (España y República Checa)
+Preparación de solicitudes y documentación
+
+Perfil:
+Persona analítica y paciente, cómoda trabajando con información y textos administrativos.
+
+Card 3
+Role: Redes sociales & PR
+
+Descripción:
+Construir la marca de la comunidad checa en España.
+
+Tareas:
+Gestión de Facebook e Instagram
+Creación de contenido (ej. Canva)
+Capturar y compartir momentos de eventos
+
+Perfil:
+Persona creativa con sensibilidad por la comunicación y lo visual.
+
+Card 4
+Role: Coordinación de eventos (Event Manager)
+
+Descripción:
+El corazón de nuestros encuentros.
+
+Tareas:
+Organización logística (lugar, programa, detalles)
+Comunicación con partners y asistentes
+Apoyo durante los eventos
+
+Perfil:
+Persona proactiva, resolutiva y con facilidad para tratar con gente.
+

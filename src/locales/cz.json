@@ -142,5 +142,83 @@
       "ctaButton": "Napište nám",
       "ctaAriaLabel": "Napsat email na asociacionchecagalicia@gmail.com"
     }
+  },
+  "meetings": {
+    "seo": {
+      "title": "Jak se potkáváme — Asociación Cultural Checa de Galicia",
+      "description": "Aktivity a setkání české komunity v Galicii — pro děti, dospělé i společné komunitní akce."
+    },
+    "hero": {
+      "headline": "Jak se potkává naše komunita",
+      "imageAlt": "Kalendář a dekorace pro komunitní akce"
+    },
+    "activities": {
+      "heading": "Aktivity",
+      "card1": {
+        "title": "Pro děti",
+        "imageAlt": "Dětské hřiště a aktivity pro děti",
+        "body": "Chceme vytvořit prostředí, kde se čeština stává přirozenou součástí hry a přátelství. Setkávání mohou mít různou podobu:",
+        "list1": "hravé jazykové aktivity",
+        "list2": "společné oslavy českých svátků",
+        "list3": "volná setkávání rodin s dětmi",
+        "list4": "komunitní \"mini školka\" formou společného času",
+        "outro": "Cílem není výuka, ale zkušenost, že jazyk patří do života."
+      },
+      "card2": {
+        "title": "Pro dospělé",
+        "imageAlt": "Dospělí přátelé se setkávají při západu slunce",
+        "body": "Komunita je také místem pro dospělé, kteří chtějí sdílet zkušenost života mezi kulturami. Setkávání pro dospělé přinášejí:",
+        "list1": "prostor pro nové kontakty a přátelství",
+        "list2": "neformální networking",
+        "list3": "sdílení praktických zkušeností ze života v regionu",
+        "outro": "Na začátku jde hlavně o poznávání se."
+      },
+      "card3": {
+        "title": "Společné a komunitní akce",
+        "imageAlt": "České vlajky na komunitní slavnosti",
+        "body": "Během roku se přirozeně potkáváme také kolem českých tradic a svátků. Tyto momenty propojují děti i dospělé a vytvářejí společné vzpomínky.",
+        "list1": "české tradice a svátky",
+        "list2": "společné vzpomínky dětí i dospělých",
+        "list3": "spontánní setkání podle potřeb komunity",
+        "outro": "Vedle plánovaných akcí vznikají i spontánní setkání podle toho, co komunita právě potřebuje."
+      },
+      "flipHint": "Klikněte pro více info",
+      "flipBack": "↻ zpět"
+    },
+    "ideas": {
+      "heading": "Prostor pro vaše nápady",
+      "iconAlt": "Ikona kalendáře akcí",
+      "p1": "Komunita vzniká z lidí, kteří chtějí něco sdílet. Ať už jde o společnou procházku po pobřeží, čtení pro děti nebo sdílení zkušeností ze života v zahraničí.",
+      "p2": "Naše společenství má přirozenou základnu v A Coruña, kde se setkáváme nejčastěji. Rádi ale podpoříme vznik aktivit i v dalších městech. Abychom si usnadnili plánování a zachovali přátelskou a nekomerční atmosféru našich setkání, zastřešujeme tyto aktivity pod hlavičkou Asociace.",
+      "subheading": "Máte nápad na setkání? Budeme rádi, když se ozvete!",
+      "intro": "Máte nápad na zajímavé setkání, workshop nebo výlet? Naše komunita roste díky iniciativě svých členů. Asociace funguje jako platforma, která vám pomůže vdechnout nápadu život.",
+      "benefitsHeading": "Co získáte jako organizátor:",
+      "benefit1Title": "Záštita a důvěryhodnost",
+      "benefit1Body": "Záštitu a důvěryhodnost oficiální krajanské organizace uznané Xunta de Galicia.",
+      "benefit2Title": "Propagace vaší akce",
+      "benefit2Body": "Propagaci vaší akce na našem webu, sociálních sítích a v newsletteru.",
+      "benefit3Title": "Pomoc s koordinací",
+      "benefit3Body": "Pomoc s koordinací a hledáním vhodného prostoru v La Coruni či jiných částech Galicie.",
+      "benefit4Title": "Prostor pro seberealizaci",
+      "benefit4Body": "Pokud jste odborníkem v určitém oboru nebo autorem, rádi vám umožníme sdílet vaše znalosti s komunitou v rámci nekomerčního formátu.",
+      "stepsHeading": "Jak na to?",
+      "stepsIntro": "Abychom mohli plánovat efektivně, zkuste si před odesláním nápadu promyslet:",
+      "step1Title": "Typ setkání",
+      "step1Body": "pro děti, dospělé, společný výlet či oslavu tradic",
+      "step2Title": "Smysl akce",
+      "step2Body": "sdílení zkušeností, kultura, zábava",
+      "step3Title": "Přibližný čas a místo konání",
+      "step3Body": "kdy a kde si představujete setkání",
+      "step4Title": "Vaše role",
+      "step4Body": "zda akci povedete sami, nebo hledáte v komunitě parťáka",
+      "stepsOutro": "Každý podnět posuzujeme individuálně, aby ladil s vizí naší komunity a nekryl se s jinými plány."
+    },
+    "cta": {
+      "heading": "Chcete nám poslat svůj nápad?",
+      "body": "Každý podnět posuzujeme individuálně, aby ladil s vizí naší komunity.",
+      "button": "Napište nám!",
+      "emailSubject": "Návrh setkání — web",
+      "ariaLabel": "Napsat email s návrhem setkání na asociacionchecagalicia@gmail.com"
+    }
   }
 }
