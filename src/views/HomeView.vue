@@ -138,6 +138,10 @@ const greeting = computed(() => {
             class="block w-full"
           ></iframe>
         </div>
+
+        <p class="font-body text-[14px] text-navy opacity-60 mt-4 text-center italic">
+          {{ t('home.events.locationNote') }}
+        </p>
       </ContainerWrapper>
 
       <!-- Visual Motif: Overlapping Circles -->

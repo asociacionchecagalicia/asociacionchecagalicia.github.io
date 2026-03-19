@@ -63,13 +63,14 @@
       "morning": "Dobré ráno",
       "afternoon": "Dobré odpoledne",
       "evening": "Dobrý večer",
-      "body": "Vítejte v komunitě, kde čeština žije i daleko od domova. Jsme legálně registrovaný spolek, uznaný Xunta de Galicia, který propojuje české rodiny, jednotlivce a expaty žijící v Galicii."
+      "body": "Vítejte v komunitě, kde čeština žije i daleko od domova. Jsme legálně registrovaný spolek, uznaný Xunta de Galicia, který propojuje jednotlivce, expaty a české rodiny žijící v Galicii, stejně jako jejich španělské partnery a rodiny."
     },
     "events": {
       "heading": "Nadcházející akce",
       "subheading": "Přehled chystaných setkání a akcí, které komunita organizuje nebo podporuje. Většina akcí se domlouvá přes Facebook nebo WhatsApp a je neformální a otevřená komunitě. Podrobnosti a informace o přihlášení najdete vždy u konkrétní akce.",
       "cta": "Zobrazit všechny akce",
-      "calendarAriaLabel": "Kalendář nadcházejících akcí"
+      "calendarAriaLabel": "Kalendář nadcházejících akcí",
+      "locationNote": "Naše komunita vychází z A Coruña a postupně roste po celé Galicii."
     },
     "collaboration": {
       "heading": "Jak se můžeš zapojit",
@@ -167,11 +168,11 @@
       "card2": {
         "title": "Pro dospělé",
         "imageAlt": "Dospělí přátelé se setkávají při západu slunce",
-        "body": "Komunita je také místem pro dospělé, kteří chtějí sdílet zkušenost života mezi kulturami. Setkávání pro dospělé přinášejí:",
+        "body": "Komunita je také místem pro dospělé, kteří chtějí sdílet zkušenost života mezi kulturami. Setkávání pro dospělé přinášejí: Jde nám o přirozenou atmosféru — ten pocit, že nemusíš nic vysvětlovat.",
         "list1": "prostor pro nové kontakty a přátelství",
         "list2": "neformální networking",
         "list3": "sdílení praktických zkušeností ze života v regionu",
-        "outro": "Na začátku jde hlavně o poznávání se."
+        "outro": "Na začátku jde hlavně o poznávání se. Naše setkání mají přirozenou atmosféru — přijďte i se svým španělským partnerem nebo přáteli."
       },
       "card3": {
         "title": "Společné a komunitní akce",
@@ -306,7 +307,7 @@
           "role": "Sociální sítě a PR",
           "description": "Budování značky české komunity ve Španělsku.",
           "task1": "Správa Facebooku a Instagramu",
-          "task2": "Tvorba obsahu (např. v Canvě)",
+          "task2": "Správa vizuální identity — od příspěvků na sítě až po grafické materiály",
           "task3": "Focení a sdílení momentů z akcí",
           "profile": "Kreativní duše se smyslem pro estetiku a komunikaci."
         },

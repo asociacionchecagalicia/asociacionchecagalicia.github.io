@@ -15,8 +15,13 @@ useSEO({
 
 // Touch device detection
 const isTouchDevice = ref(false)
+const isMobile = ref(false)
 onMounted(() => {
   isTouchDevice.value = window.matchMedia('(hover: none)').matches
+  isMobile.value = window.innerWidth < 768
+  window.addEventListener('resize', () => {
+    isMobile.value = window.innerWidth < 768
+  })
 })
 
 // Flip card state
@@ -117,63 +122,114 @@ const cards = computed(() => [
         <div
           v-for="(card, i) in cards"
           :key="i"
-          class="cursor-pointer h-[340px]"
-          style="perspective: 1000px"
-          @click="toggleCard(i)"
-          @mouseenter="handleMouseEnter(i)"
-          @mouseleave="handleMouseLeave(i)"
         >
-          <!-- Card Inner -->
+          <!-- DESKTOP: Flip card -->
           <div
-            class="relative w-full h-full transition-transform duration-600 ease-in-out"
-            style="transform-style: preserve-3d"
-            :style="{ transform: flipped[i] ? 'rotateY(180deg)' : 'rotateY(0deg)' }"
+            v-if="!isMobile"
+            class="cursor-pointer h-[340px]"
+            style="perspective: 1000px"
+            @click="toggleCard(i)"
+            @mouseenter="handleMouseEnter(i)"
+            @mouseleave="handleMouseLeave(i)"
           >
-            <!-- CARD FRONT -->
+            <!-- Card Inner -->
             <div
-              class="absolute inset-0 bg-coral rounded-xl overflow-hidden"
-              style="backface-visibility: hidden"
+              class="relative w-full h-full transition-transform duration-600 ease-in-out"
+              style="transform-style: preserve-3d"
+              :style="{ transform: flipped[i] ? 'rotateY(180deg)' : 'rotateY(0deg)' }"
             >
-              <!-- Photo (top 55%) -->
-              <img
-                :src="'/assets/' + card.image"
-                :alt="t(card.altKey)"
-                class="w-full h-[55%] object-cover"
-                loading="lazy"
-              />
+              <!-- CARD FRONT -->
+              <div
+                class="absolute inset-0 bg-coral rounded-xl overflow-hidden"
+                style="backface-visibility: hidden"
+              >
+                <!-- Photo (top 55%) -->
+                <img
+                  :src="'/assets/' + card.image"
+                  :alt="t(card.altKey)"
+                  class="w-full h-[55%] object-cover"
+                  loading="lazy"
+                />
 
-              <!-- Text (bottom 45%) -->
-              <div class="p-4">
-                <h3 class="font-heading font-semibold text-[18px] text-white mb-2">
+                <!-- Text (bottom 45%) -->
+                <div class="p-4">
+                  <h3 class="font-heading font-semibold text-[18px] text-white mb-2">
+                    {{ t(card.titleKey) }}
+                  </h3>
+
+                  <!-- Flip hint (touch only) -->
+                  <span
+                    v-if="isTouchDevice"
+                    class="text-[11px] text-white opacity-55 flex items-center gap-1 mt-2"
+                  >
+                    ↻ {{ t('meetings.activities.flipHint') }}
+                  </span>
+                </div>
+              </div>
+
+              <!-- CARD BACK -->
+              <div
+                class="absolute inset-0 bg-[#EEF6FB] border border-sky rounded-xl p-4 overflow-y-auto"
+                style="backface-visibility: hidden; transform: rotateY(180deg)"
+              >
+                <!-- Title -->
+                <h3 class="font-heading font-semibold text-[14px] text-navy mb-2 pb-2 border-b border-[rgba(95,168,211,0.3)]">
                   {{ t(card.titleKey) }}
                 </h3>
 
-                <!-- Flip hint (mobile only) -->
-                <span
-                  v-if="isTouchDevice"
-                  class="text-[11px] text-white opacity-55 flex items-center gap-1 mt-2"
-                >
-                  ↻ {{ t('meetings.activities.flipHint') }}
+                <!-- Body Text -->
+                <p class="font-body text-[12px] text-navy opacity-80 leading-relaxed mb-3">
+                  {{ t(card.bodyKey) }}
+                </p>
+
+                <!-- List -->
+                <ul class="space-y-2 mb-3">
+                  <li
+                    v-for="(listKey, idx) in card.lists"
+                    :key="idx"
+                    class="flex items-start gap-2 text-[12px] text-navy opacity-80"
+                  >
+                    <span class="w-1.5 h-1.5 rounded-full bg-coral mt-1.5 flex-shrink-0"></span>
+                    <span>{{ t(listKey) }}</span>
+                  </li>
+                </ul>
+
+                <!-- Outro -->
+                <p class="font-body text-[11px] text-navy opacity-60 italic mt-3">
+                  {{ t(card.outroKey) }}
+                </p>
+
+                <!-- Flip back hint -->
+                <span class="text-[10px] text-sky mt-auto block text-right">
+                  {{ t('meetings.activities.flipBack') }}
                 </span>
               </div>
             </div>
+          </div>
 
-            <!-- CARD BACK -->
-            <div
-              class="absolute inset-0 bg-[#EEF6FB] border border-sky rounded-xl p-4 overflow-y-auto"
-              style="backface-visibility: hidden; transform: rotateY(180deg)"
-            >
-              <!-- Title -->
-              <h3 class="font-heading font-semibold text-[14px] text-navy mb-2 pb-2 border-b border-[rgba(95,168,211,0.3)]">
+          <!-- MOBILE: Stacked layout -->
+          <div v-else class="rounded-xl overflow-hidden">
+            <!-- Top: image -->
+            <img
+              :src="'/assets/' + card.image"
+              :alt="t(card.altKey)"
+              class="w-full h-[200px] object-cover rounded-t-xl"
+              loading="lazy"
+            />
+
+            <!-- Middle: coral title bar -->
+            <div class="bg-coral p-4">
+              <h3 class="font-heading font-semibold text-[18px] text-white">
                 {{ t(card.titleKey) }}
               </h3>
+            </div>
 
-              <!-- Body Text -->
+            <!-- Bottom: content -->
+            <div class="bg-[#EEF6FB] rounded-b-xl p-4">
               <p class="font-body text-[12px] text-navy opacity-80 leading-relaxed mb-3">
                 {{ t(card.bodyKey) }}
               </p>
 
-              <!-- List -->
               <ul class="space-y-2 mb-3">
                 <li
                   v-for="(listKey, idx) in card.lists"
@@ -185,15 +241,9 @@ const cards = computed(() => [
                 </li>
               </ul>
 
-              <!-- Outro -->
               <p class="font-body text-[11px] text-navy opacity-60 italic mt-3">
                 {{ t(card.outroKey) }}
               </p>
-
-              <!-- Flip back hint -->
-              <span class="text-[10px] text-sky mt-auto block text-right">
-                {{ t('meetings.activities.flipBack') }}
-              </span>
             </div>
           </div>
         </div>

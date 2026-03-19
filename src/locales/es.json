@@ -63,13 +63,14 @@
       "morning": "Buenos días",
       "afternoon": "Buenas tardes",
       "evening": "Buenas noches",
-      "body": "Bienvenidos a una comunidad donde el checo cobra vida lejos de casa. Somos una asociación legalmente registrada, reconocida por la Xunta de Galicia, que conecta a familias checas, individuos y expatriados que viven en Galicia."
+      "body": "Bienvenidos a una comunidad donde el checo cobra vida lejos de casa. Somos una asociación legalmente registrada, reconocida por la Xunta de Galicia, que conecta a individuos, expatriados y familias checas que viven en Galicia, así como a sus parejas y familias españolas."
     },
     "events": {
       "heading": "Próximos eventos",
       "subheading": "Resumen de los próximos encuentros y actividades que la comunidad organiza o apoya. La mayoría de los eventos se coordinan a través de Facebook o WhatsApp y son informales y abiertos a la comunidad. Los detalles y la información sobre cómo participar se encuentran siempre en cada evento específico.",
       "cta": "Ver todos los eventos",
-      "calendarAriaLabel": "Calendario de próximos eventos"
+      "calendarAriaLabel": "Calendario de próximos eventos",
+      "locationNote": "Nuestra comunidad tiene su base en A Coruña y crece poco a poco por toda Galicia."
     },
     "collaboration": {
       "heading": "Cómo puedes participar",
@@ -167,11 +168,11 @@
       "card2": {
         "title": "Para adultos",
         "imageAlt": "Amigos adultos reuniéndose al atardecer",
-        "body": "La comunidad también es un espacio para adultos que quieren compartir la experiencia de vivir entre culturas. Los encuentros para adultos ofrecen:",
+        "body": "La comunidad también es un espacio para adultos que quieren compartir la experiencia de vivir entre culturas. Los encuentros para adultos ofrecen: Buscamos ese ambiente natural donde no tienes que explicar tu historia cada vez.",
         "list1": "un espacio para nuevos contactos y amistades",
         "list2": "networking informal",
         "list3": "intercambio de experiencias prácticas de la vida en la región",
-        "outro": "Al principio, lo más importante es simplemente conocernos."
+        "outro": "Al principio, lo más importante es conocernos. Nuestros encuentros son bilingües y abiertos — las parejas españolas son igual de bienvenidas."
       },
       "card3": {
         "title": "Eventos comunitarios y encuentros compartidos",
@@ -306,7 +307,7 @@
           "role": "Redes sociales & PR",
           "description": "Construir la marca de la comunidad checa en España.",
           "task1": "Gestión de Facebook e Instagram",
-          "task2": "Creación de contenido (ej. Canva)",
+          "task2": "Gestión de identidad visual — desde publicaciones hasta materiales gráficos",
           "task3": "Capturar y compartir momentos de eventos",
           "profile": "Persona creativa con sensibilidad por la comunicación y lo visual."
         },
