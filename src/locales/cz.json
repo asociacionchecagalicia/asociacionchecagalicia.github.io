@@ -220,5 +220,107 @@
       "emailSubject": "Návrh setkání — web",
       "ariaLabel": "Napsat email s návrhem setkání na asociacionchecagalicia@gmail.com"
     }
+  },
+  "participate": {
+    "seo": {
+      "title": "Jak se zapojit — Asociación Cultural Checa de Galicia",
+      "description": "Přidejte se k české komunitě v Galicii. Přijďte na akci, sledujte nás online nebo se staňte aktivním členem týmu."
+    },
+    "hero": {
+      "headline": "Staň se součástí komunity",
+      "imageAlt": "Lidé na komunitní akci v parku"
+    },
+    "join": {
+      "heading": "Přijďte mezi nás",
+      "iconAlt": "Ikona nápadu a komunity",
+      "p1": "Nejjednodušší způsob, jak se zapojit, je přijít na akci nebo setkání, které vás zaujme.",
+      "p2": "Většina našich aktivit je neformální a otevřená celé komunitě.",
+      "p3": "Nemusíte se registrovat ani nic vysvětlovat — stačí přijít.",
+      "cta": "Zobrazit kalendář akcí",
+      "ctaAriaLabel": "Zobrazit kalendář nadcházejících akcí"
+    },
+    "contact": {
+      "heading": "Zůstaňte v kontaktu",
+      "iconAlt": "Ikona kalendáře a akcí",
+      "p1": "Komunita žije nejen na setkáních, ale i online.",
+      "p2": "Přidejte se do našich komunikačních kanálů a zůstaňte v obraze.",
+      "facebook": "Facebook skupina",
+      "instagram": "Instagram",
+      "p3": "Sdílíme zde novinky, nápady na setkání a informace o akcích.",
+      "facebookAriaLabel": "Facebook skupina — otevře se na nové záložce",
+      "instagramAriaLabel": "Instagram — otevře se na nové záložce"
+    },
+    "divider": {
+      "text": "Chcete se zapojit aktivněji?"
+    },
+    "involve": {
+      "imageAlt": "Hrnek kávy na knize s nápisem Asociación",
+      "heading": "Dva způsoby, jak přiložit ruku k dílu",
+      "subheading": "Ať už chcete pomoci jednorázově nebo se podílet na vedení spolku — obojí má smysl a obojí vítáme.",
+      "volunteer": {
+        "tag": "Pomocná ruka",
+        "heading": "Staňte se dobrovolníkem",
+        "subheading": "Pomozte nám s konkrétní akcí nebo dovedností. Například:",
+        "item1": "Pomoc s přípravou prostor pro české oslavy",
+        "item2": "Pečení, vaření nebo příprava materiálů pro děti",
+        "item3": "Fotografování našich setkání",
+        "cta": "Napište nám — chci pomáhat nárazově",
+        "ctaNote": "asociacionchecagalicia@gmail.com",
+        "emailSubject": "Voluntario — web",
+        "ariaLabel": "Napsat email — chci se zapojit do komunity"
+      },
+      "core": {
+        "tag": "Hledáme parťáky",
+        "heading": "Staňte se pilířem spolku",
+        "subheading": "Podílejte se na vedení a růstu naší komunity.",
+        "item1": "Administrativa a péče o komunitu",
+        "item2": "Granty a dotace — Španělsko i ČR",
+        "item3": "Sociální sítě a PR",
+        "item4": "Koordinace akcí a setkání",
+        "cta": "Napište nám — mám zájem o aktivní roli",
+        "ctaNote": "asociacionchecagalicia@gmail.com",
+        "emailSubject": "Colaborador — web",
+        "ariaLabel": "Napsat email — mám zájem o aktivní roli v spolku",
+        "toggleShow": "Zobrazit konkrétní role, které hledáme",
+        "toggleHide": "Skrýt konkrétní role"
+      },
+      "roles": {
+        "heading": "Konkrétní role, které hledáme",
+        "card1": {
+          "role": "Administrativa & péče o komunitu",
+          "description": "Zajištění hladkého chodu spolku po organizační stránce a péče o naši členskou základnu.",
+          "task1": "Správa seznamu členů a dobrovolníků",
+          "task2": "Evidence přihlášek a základní dokumentace",
+          "task3": "Organizace interních informací (Google Drive apod.)",
+          "task4": "Podpora týmu v administrativních úkolech",
+          "profile": "Člověk, který má rád pořádek, systém a spolehlivost. Dotahuje věci do konce."
+        },
+        "card2": {
+          "role": "Granty a dotace (Fundraising)",
+          "description": "Získávání prostředků pro naše kulturní projekty.",
+          "task1": "Vyhledávání grantových výzev (ČR i Španělsko)",
+          "task2": "Příprava podkladů a žádostí",
+          "profile": "Trpělivý a analytický typ, kterému nevadí práce s informacemi a úředními texty."
+        },
+        "card3": {
+          "role": "Sociální sítě a PR",
+          "description": "Budování značky české komunity ve Španělsku.",
+          "task1": "Správa Facebooku a Instagramu",
+          "task2": "Tvorba obsahu (např. v Canvě)",
+          "task3": "Focení a sdílení momentů z akcí",
+          "profile": "Kreativní duše se smyslem pro estetiku a komunikaci."
+        },
+        "card4": {
+          "role": "Koordinace akcí (Event Manager)",
+          "description": "Srdce našich setkání.",
+          "task1": "Organizace logistiky (místo, program, drobnosti)",
+          "task2": "Komunikace s partnery a účastníky",
+          "task3": "Pomoc s průběhem akcí na místě",
+          "profile": "Akční člověk, který se nebojí mluvit s lidmi a řešit věci za pochodu."
+        },
+        "tasksLabel": "Úkoly:",
+        "profileLabel": "Profil:"
+      }
+    }
   }
 }

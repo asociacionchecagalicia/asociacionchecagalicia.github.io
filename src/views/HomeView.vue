@@ -105,7 +105,7 @@ const greeting = computed(() => {
   </div>
 
   <!-- SECTION 3: EVENTS -->
-  <SectionWrapper background="offwhite">
+  <SectionWrapper background="offwhite" id="events">
     <div class="relative overflow-hidden">
       <ContainerWrapper>
         <HeadingBlock

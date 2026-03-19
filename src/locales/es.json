@@ -220,5 +220,107 @@
       "emailSubject": "Propuesta de reunión — web",
       "ariaLabel": "Enviar email con propuesta de encuentro a asociacionchecagalicia@gmail.com"
     }
+  },
+  "participate": {
+    "seo": {
+      "title": "Cómo participar — Asociación Cultural Checa de Galicia",
+      "description": "Únete a la comunidad checa en Galicia. Ven a un evento, síguenos online o conviértete en miembro activo del equipo."
+    },
+    "hero": {
+      "headline": "Forma parte de nuestra comunidad",
+      "imageAlt": "Personas en un evento comunitario en el parque"
+    },
+    "join": {
+      "heading": "Únete a nosotros",
+      "iconAlt": "Icono de idea y comunidad",
+      "p1": "La forma más sencilla de participar es asistir a un evento o encuentro que te llame la atención.",
+      "p2": "La mayoría de nuestras actividades son informales y están abiertas a toda la comunidad.",
+      "p3": "No necesitas registrarte ni explicar nada — simplemente ven.",
+      "cta": "Ver calendario de eventos",
+      "ctaAriaLabel": "Ver calendario de próximos eventos"
+    },
+    "contact": {
+      "heading": "Mantente en contacto",
+      "iconAlt": "Icono de calendario de eventos",
+      "p1": "La comunidad vive no solo en los encuentros, sino también online.",
+      "p2": "Únete a nuestros canales de comunicación y mantente al día.",
+      "facebook": "Grupo de Facebook",
+      "instagram": "Instagram",
+      "p3": "Compartimos novedades, ideas para encuentros e información sobre eventos.",
+      "facebookAriaLabel": "Grupo de Facebook — abre en nueva pestaña",
+      "instagramAriaLabel": "Instagram — abre en nueva pestaña"
+    },
+    "divider": {
+      "text": "¿Quieres involucrarte más activamente?"
+    },
+    "involve": {
+      "imageAlt": "Taza de café sobre un libro con la palabra Asociación",
+      "heading": "Dos formas de poner manos a la obra",
+      "subheading": "Ya sea que quieras ayudar de manera puntual o participar en la gestión de la asociación — ambas opciones tienen sentido y las valoramos.",
+      "volunteer": {
+        "tag": "Mano amiga",
+        "heading": "Conviértase en voluntario",
+        "subheading": "Ayúdenos con una acción concreta o aportando sus habilidades. Por ejemplo:",
+        "item1": "Ayuda con la preparación de espacios para las celebraciones checas",
+        "item2": "Hornear, cocinar o preparar materiales para niños",
+        "item3": "Fotografiar nuestros encuentros",
+        "cta": "Escríbanos — quiero ayudar puntualmente",
+        "ctaNote": "asociacionchecagalicia@gmail.com",
+        "emailSubject": "Voluntario — web",
+        "ariaLabel": "Enviar email — quiero participar en la comunidad"
+      },
+      "core": {
+        "tag": "Buscamos colaboradores",
+        "heading": "Conviértase en un pilar de la asociación",
+        "subheading": "Participe en la gestión y el crecimiento de nuestra comunidad.",
+        "item1": "Administración y gestión de comunidad",
+        "item2": "Subvenciones y ayudas — España y República Checa",
+        "item3": "Redes sociales y PR",
+        "item4": "Coordinación de eventos y encuentros",
+        "cta": "Escríbanos — estoy interesado en un rol activo",
+        "ctaNote": "asociacionchecagalicia@gmail.com",
+        "emailSubject": "Colaborador — web",
+        "ariaLabel": "Enviar email — estoy interesado en un rol activo",
+        "toggleShow": "Mostrar los roles específicos que buscamos",
+        "toggleHide": "Ocultar los roles específicos"
+      },
+      "roles": {
+        "heading": "Roles específicos que buscamos",
+        "card1": {
+          "role": "Administración & gestión de comunidad",
+          "description": "Asegurar el buen funcionamiento interno de la asociación y el cuidado de nuestra comunidad.",
+          "task1": "Gestión de la base de datos de miembros y voluntarios",
+          "task2": "Registro de solicitudes y documentación básica",
+          "task3": "Organización de información interna (Google Drive, etc.)",
+          "task4": "Apoyo al equipo en tareas administrativas",
+          "profile": "Persona organizada, fiable y con atención al detalle. Le gusta tener las cosas en orden."
+        },
+        "card2": {
+          "role": "Subvenciones & Fundraising",
+          "description": "Obtención de recursos para nuestros proyectos culturales.",
+          "task1": "Búsqueda de convocatorias (España y República Checa)",
+          "task2": "Preparación de solicitudes y documentación",
+          "profile": "Persona analítica y paciente, cómoda trabajando con información y textos administrativos."
+        },
+        "card3": {
+          "role": "Redes sociales & PR",
+          "description": "Construir la marca de la comunidad checa en España.",
+          "task1": "Gestión de Facebook e Instagram",
+          "task2": "Creación de contenido (ej. Canva)",
+          "task3": "Capturar y compartir momentos de eventos",
+          "profile": "Persona creativa con sensibilidad por la comunicación y lo visual."
+        },
+        "card4": {
+          "role": "Coordinación de eventos (Event Manager)",
+          "description": "El corazón de nuestros encuentros.",
+          "task1": "Organización logística (lugar, programa, detalles)",
+          "task2": "Comunicación con partners y asistentes",
+          "task3": "Apoyo durante los eventos",
+          "profile": "Persona proactiva, resolutiva y con facilidad para tratar con gente."
+        },
+        "tasksLabel": "Tareas:",
+        "profileLabel": "Perfil:"
+      }
+    }
   }
 }

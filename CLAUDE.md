@@ -51,6 +51,41 @@
 
 ### When adding a new page, update this table.
 
+### CRITICAL: Two files control navigation — always update both
+
+AppHeader.vue handles desktop navigation (xl: breakpoint and above).
+MobileMenu.vue handles mobile navigation (below xl: breakpoint).
+
+These two files are separate components. Any change made to
+navigation links in one file MUST be made in the other file too.
+They must always be in sync.
+
+This applies to:
+- URL slug changes or corrections
+- Language-aware :to bindings
+- Adding new routes
+- Removing routes
+- Any fix to how links are constructed
+
+The correct :to pattern for both files is always:
+```vue
+:to="`/${currentLang}/${currentLang === 'cz' ? 'czech-slug' : 'spanish-slug'}`"
+```
+
+Never use:
+- Hardcoded Czech slugs without language check
+- Czech diacritics in URL slugs (o-komunitě ❌, o-komunite ✅)
+- active-class or exact-active-class props — they do not work
+  with Tailwind purging. Use :class with isActive() instead.
+  isActive() is only needed in AppHeader.vue — mobile menu
+  does not need active state highlighting.
+
+### Every time you add a new page, update BOTH files:
+1. AppHeader.vue — add RouterLink to desktop nav if needed
+2. MobileMenu.vue — add RouterLink with same language-aware pattern
+3. router/index.js — add both Czech and Spanish routes
+4. Update the route map table in this CLAUDE.md file
+
 ## External links (social media, Google Calendar, email):
 - Always use `<a>` not RouterLink
 - Always add `target="_blank" rel="noopener noreferrer"`

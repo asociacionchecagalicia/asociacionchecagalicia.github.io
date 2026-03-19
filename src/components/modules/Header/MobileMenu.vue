@@ -138,25 +138,22 @@ onUnmounted(() => {
     <!-- Navigation Links -->
     <nav class="flex-1 flex flex-col">
       <RouterLink
-        :to="`/${currentLang}/o-komunitě`"
+        :to="`/${currentLang}/${currentLang === 'cz' ? 'o-komunite' : 'sobre-la-comunidad'}`"
         class="w-full min-h-[44px] py-3 px-6 font-body text-[18px] text-navy border-b border-[rgba(0,31,63,0.1)]"
-        active-class="text-coral"
         @click="emit('close')"
       >
         {{ t('header.nav.community') }}
       </RouterLink>
       <RouterLink
-        :to="`/${currentLang}/jak-se-potkáváme`"
+        :to="`/${currentLang}/${currentLang === 'cz' ? 'jak-se-potkavame' : 'como-nos-reunimos'}`"
         class="w-full min-h-[44px] py-3 px-6 font-body text-[18px] text-navy border-b border-[rgba(0,31,63,0.1)]"
-        active-class="text-coral"
         @click="emit('close')"
       >
         {{ t('header.nav.meetings') }}
       </RouterLink>
       <RouterLink
-        :to="`/${currentLang}/jak-se-zapojit`"
+        :to="`/${currentLang}/${currentLang === 'cz' ? 'jak-se-zapojit' : 'como-participar'}`"
         class="w-full min-h-[44px] py-3 px-6 font-body text-[18px] text-navy border-b border-[rgba(0,31,63,0.1)]"
-        active-class="text-coral"
         @click="emit('close')"
       >
         {{ t('header.nav.participate') }}
