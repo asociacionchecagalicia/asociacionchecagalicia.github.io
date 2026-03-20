@@ -63,7 +63,7 @@
       "morning": "Dobré ráno",
       "afternoon": "Dobré odpoledne",
       "evening": "Dobrý večer",
-      "body": "Vítejte v komunitě, kde čeština žije i daleko od domova. Jsme legálně registrovaný spolek, uznaný Xunta de Galicia, který propojuje jednotlivce, expaty a české rodiny žijící v Galicii, stejně jako jejich španělské partnery a rodiny."
+      "body": "Vítejte v komunitě, kde čeština žije i daleko od domova. Jsme legálně registrovaný spolek, uznaný Xunta de Galicia, který propojuje jednotlivce, expaty a české rodiny žijící v Galicii — stejně jako jejich španělské partnery a přátele naší kultury."
     },
     "events": {
       "heading": "Nadcházející akce",
@@ -100,14 +100,13 @@
     "about": {
       "heading": "O nás a náš tým",
       "subheading": "Začalo to u tří rodin.",
-      "p1": "Všechno začalo u tří rodin. Na začátku jsme byly tři rodiny s malými dětmi. Naši partneři jsou Španělé nebo expati a my jsme chtěly jediné: aby naše děti slyšely češtinu i mimo domov, aby si v ní hrály, smály se a přirozeně v ní navazovaly přátelství.",
-      "p3": "Postupně jsme také potkaly další Čechy v Galicii — rodiny, páry i jednotlivce, kteří chtěli navázat kontakt, sdílet zkušenosti nebo si prostě jen občas promluvit ve svém jazyce. Tehdy jsme si uvědomily, že to, co žijeme my, může dávat smysl i ostatním.",
+      "p1a": "Všechno začalo u tří rodin. Na začátku jsme byly tři rodiny s malými dětmi. Naši partneři jsou Španělé nebo expati a my jsme chtěly jediné: ",
+      "p1highlight": "aby naše děti slyšely češtinu i mimo domov",
+      "p1b": ", aby si v ní hrály, smály se a přirozeně v ní navazovaly přátelství.",
+      "p3a": "Postupně jsme také potkaly další Čechy v Galicii — rodiny, páry i jednotlivce, kteří chtěli navázat kontakt, sdílet zkušenosti nebo si prostě jen občas promluvit ve svém jazyce. ",
+      "p3highlight": "Tehdy jsme si uvědomily, že to, co žijeme my, může dávat smysl i ostatním.",
       "p4": "Komunitu založily tři ženy, tři mámy a tři iniciátorky, ale tým rozhodně nekončí u nás. Spolek se postupně buduje a kdokoli se může stát jeho součástí.",
-      "listIntro": "Hledáme lidi, kteří chtějí:",
-      "list1": "pomoct s organizací akcí",
-      "list2": "zapojit se do komunikace",
-      "list3": "přinést nové nápady",
-      "list4": "nebo prostě přiložit ruku k dílu",
+      "joinCta": "Jak se zapojit",
       "imageAlt": "Rodiny procházející se v galicijské krajině"
     },
     "why": {
@@ -119,14 +118,18 @@
       "list2": "vytvořit přehledné místo, kde se komunita může najít a zapojit",
       "list3": "sdílet náš jazyk, kulturu a tradice",
       "list4": "budovat něco, co má dlouhodobý smysl",
-      "p7": "Oficiální spolek přináší odpovědnost, ale také nové možnosti. Věříme, že energie, kterou do něj vložíme, se vrátí v podobě silnějších vztahů, kvalitnějších aktivit a viditelné, rozpoznatelné komunity.",
+      "p7highlight": "Oficiální spolek přináší odpovědnost, ale také nové možnosti.",
+      "p7b": " Věříme, že energie, kterou do něj vložíme, se vrátí v podobě silnějších vztahů, kvalitnějších aktivit a viditelné, rozpoznatelné komunity.",
       "imageAlt": "Papírové postavičky držící se za ruce"
     },
     "who": {
       "heading": "Kdo ke komunitě patří",
       "p8": "Naše komunita vzniká kolem českého jazyka, kultury a vztahů, které si chceme uchovat i v Galicii.",
-      "p9": "Rádi mezi sebou vítáme také Španěly a další expaty, kteří mají zájem o Českou republiku a její kulturu a chtějí ji poznat blíže skrze setkávání a společné zážitky.",
-      "p10": "Spolek stavíme hlavně na češtině, ale slovenština má u nás své místo. Slovenské rodiny a jednotlivce vždy rádi přivítáme — naše jazyky a kultury se přirozeně doplňují.",
+      "p8b": "Naše akce jsou otevřené a přátelské — nepotřebuješ mluvit česky, abys přišel.",
+      "p9highlight": "Rádi mezi sebou vítáme také Španěly a další expaty",
+      "p9b": ", kteří mají zájem o Českou republiku a její kulturu a chtějí ji poznat blíže skrze setkávání a společné zážitky.",
+      "p10highlight": "Spolek stavíme hlavně na češtině, ale slovenština má u nás své místo.",
+      "p10b": " Slovenské rodiny a jednotlivce vždy rádi přivítáme — naše jazyky a kultury se přirozeně doplňují.",
       "rulesIntro": "Naše komunita stojí na jednoduchých pravidlech:",
       "rule1": "žádná forma nenávisti a diskriminace",
       "rule2": "respekt k různým životním cestám a názorům",
@@ -168,11 +171,11 @@
       "card2": {
         "title": "Pro dospělé",
         "imageAlt": "Dospělí přátelé se setkávají při západu slunce",
-        "body": "Komunita je také místem pro dospělé, kteří chtějí sdílet zkušenost života mezi kulturami. Setkávání pro dospělé přinášejí: Jde nám o přirozenou atmosféru — ten pocit, že nemusíš nic vysvětlovat.",
+        "body": "Komunita je také místem pro dospělé, kteří chtějí sdílet zkušenost života mezi kulturami. Jde nám o přirozenou atmosféru — ten pocit, že nemusíš nic vysvětlovat. Setkávání pro dospělé přinášejí:",
         "list1": "prostor pro nové kontakty a přátelství",
         "list2": "neformální networking",
         "list3": "sdílení praktických zkušeností ze života v regionu",
-        "outro": "Na začátku jde hlavně o poznávání se. Naše setkání mají přirozenou atmosféru — přijďte i se svým španělským partnerem nebo přáteli."
+        "outro": "Naše setkání mají přirozenou atmosféru — přijďte i se svým španělským partnerem nebo přáteli."
       },
       "card3": {
         "title": "Společné a komunitní akce",
@@ -190,7 +193,8 @@
       "heading": "Prostor pro vaše nápady",
       "iconAlt": "Ikona kalendáře akcí",
       "p1": "Komunita vzniká z lidí, kteří chtějí něco sdílet. Ať už jde o společnou procházku po pobřeží, čtení pro děti nebo sdílení zkušeností ze života v zahraničí.",
-      "p2": "Naše společenství má přirozenou základnu v A Coruña, kde se setkáváme nejčastěji. Rádi ale podpoříme vznik aktivit i v dalších městech. Abychom si usnadnili plánování a zachovali přátelskou a nekomerční atmosféru našich setkání, zastřešujeme tyto aktivity pod hlavičkou Asociace.",
+      "p2a": "Naše společenství má přirozenou základnu v A Coruña, kde se setkáváme nejčastěji.",
+      "p2b": "Rádi ale podpoříme vznik aktivit i v dalších městech. Abychom si usnadnili plánování a zachovali přátelskou a nekomerční atmosféru našich setkání, zastřešujeme tyto aktivity pod hlavičkou Asociace.",
       "subheading": "Máte nápad na setkání? Budeme rádi, když se ozvete!",
       "intro": "Máte nápad na zajímavé setkání, workshop nebo výlet? Naše komunita roste díky iniciativě svých členů. Asociace funguje jako platforma, která vám pomůže vdechnout nápadu život.",
       "benefitsHeading": "Co získáte jako organizátor:",
@@ -273,7 +277,8 @@
       "core": {
         "tag": "Hledáme parťáky",
         "heading": "Staňte se pilířem spolku",
-        "subheading": "Podílejte se na vedení a růstu naší komunity.",
+        "subheading": "Spolek aktuálně řídí malý tým zakladatelek a hledáme první parťáky, kteří se přidají. Podílejte se na vedení a růstu naší komunity.",
+        "timeCommitment": "Počítejte přibližně s 2–4 hodinami měsíčně podle vaší role.",
         "item1": "Administrativa a péče o komunitu",
         "item2": "Granty a dotace — Španělsko i ČR",
         "item3": "Sociální sítě a PR",

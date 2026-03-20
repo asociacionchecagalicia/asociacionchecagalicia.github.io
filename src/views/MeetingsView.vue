@@ -277,7 +277,11 @@ const cards = computed(() => [
         </p>
 
         <p class="font-body text-[16px] text-navy opacity-80 leading-relaxed mb-4 max-w-[720px]">
-          {{ t('meetings.ideas.p2') }}
+          <span class="text-coral font-medium">{{ t('meetings.ideas.p2a') }}</span>
+        </p>
+
+        <p class="font-body text-[16px] text-navy opacity-80 leading-relaxed mb-4 max-w-[720px]">
+          {{ t('meetings.ideas.p2b') }}
         </p>
 
         <!-- Subheading (coral) -->
@@ -349,77 +353,79 @@ const cards = computed(() => [
         <!-- Sky Divider -->
         <div class="w-full h-px bg-sky opacity-20 my-8"></div>
 
-        <!-- Steps Heading -->
-        <h3 class="font-heading font-semibold text-[16px] text-navy mb-1">
-          {{ t('meetings.ideas.stepsHeading') }}
-        </h3>
+        <div class="bg-[#F9F9F9] border border-[rgba(0,31,63,0.08)] rounded-xl p-5 mt-6">
+          <!-- Steps Heading -->
+          <h3 class="font-heading font-semibold text-[11px] text-navy opacity-50 uppercase tracking-wider mb-3">
+            {{ t('meetings.ideas.stepsHeading') }}
+          </h3>
 
-        <!-- Steps Intro -->
-        <p class="font-body text-[14px] text-navy opacity-60 mb-4">
-          {{ t('meetings.ideas.stepsIntro') }}
-        </p>
+          <!-- Steps Intro -->
+          <p class="font-body text-[13px] text-navy opacity-60 mb-4">
+            {{ t('meetings.ideas.stepsIntro') }}
+          </p>
 
-        <!-- Steps -->
-        <div class="flex items-start gap-3 mb-4">
-          <span class="w-6 h-6 rounded-full bg-coral text-white font-heading font-semibold text-[12px] flex items-center justify-center flex-shrink-0 mt-0.5">
-            1
-          </span>
-          <div>
-            <span class="font-heading font-semibold text-[15px] text-navy">
-              {{ t('meetings.ideas.step1Title') }}
+          <!-- Steps -->
+          <div class="flex items-start gap-3 mb-4">
+            <span class="w-5 h-5 rounded-full bg-coral text-white font-heading font-semibold text-[11px] flex items-center justify-center flex-shrink-0 mt-0.5">
+              1
             </span>
-            <span class="font-body text-[15px] text-navy opacity-70">
-              — {{ t('meetings.ideas.step1Body') }}
-            </span>
+            <div>
+              <span class="font-heading font-semibold text-[13px] text-navy">
+                {{ t('meetings.ideas.step1Title') }}
+              </span>
+              <span class="font-body text-[13px] text-navy opacity-70 leading-relaxed">
+                — {{ t('meetings.ideas.step1Body') }}
+              </span>
+            </div>
           </div>
-        </div>
 
-        <div class="flex items-start gap-3 mb-4">
-          <span class="w-6 h-6 rounded-full bg-coral text-white font-heading font-semibold text-[12px] flex items-center justify-center flex-shrink-0 mt-0.5">
-            2
-          </span>
-          <div>
-            <span class="font-heading font-semibold text-[15px] text-navy">
-              {{ t('meetings.ideas.step2Title') }}
+          <div class="flex items-start gap-3 mb-4">
+            <span class="w-5 h-5 rounded-full bg-coral text-white font-heading font-semibold text-[11px] flex items-center justify-center flex-shrink-0 mt-0.5">
+              2
             </span>
-            <span class="font-body text-[15px] text-navy opacity-70">
-              — {{ t('meetings.ideas.step2Body') }}
-            </span>
+            <div>
+              <span class="font-heading font-semibold text-[13px] text-navy">
+                {{ t('meetings.ideas.step2Title') }}
+              </span>
+              <span class="font-body text-[13px] text-navy opacity-70 leading-relaxed">
+                — {{ t('meetings.ideas.step2Body') }}
+              </span>
+            </div>
           </div>
-        </div>
 
-        <div class="flex items-start gap-3 mb-4">
-          <span class="w-6 h-6 rounded-full bg-coral text-white font-heading font-semibold text-[12px] flex items-center justify-center flex-shrink-0 mt-0.5">
-            3
-          </span>
-          <div>
-            <span class="font-heading font-semibold text-[15px] text-navy">
-              {{ t('meetings.ideas.step3Title') }}
+          <div class="flex items-start gap-3 mb-4">
+            <span class="w-5 h-5 rounded-full bg-coral text-white font-heading font-semibold text-[11px] flex items-center justify-center flex-shrink-0 mt-0.5">
+              3
             </span>
-            <span class="font-body text-[15px] text-navy opacity-70">
-              — {{ t('meetings.ideas.step3Body') }}
-            </span>
+            <div>
+              <span class="font-heading font-semibold text-[13px] text-navy">
+                {{ t('meetings.ideas.step3Title') }}
+              </span>
+              <span class="font-body text-[13px] text-navy opacity-70 leading-relaxed">
+                — {{ t('meetings.ideas.step3Body') }}
+              </span>
+            </div>
           </div>
-        </div>
 
-        <div class="flex items-start gap-3 mb-4">
-          <span class="w-6 h-6 rounded-full bg-coral text-white font-heading font-semibold text-[12px] flex items-center justify-center flex-shrink-0 mt-0.5">
-            4
-          </span>
-          <div>
-            <span class="font-heading font-semibold text-[15px] text-navy">
-              {{ t('meetings.ideas.step4Title') }}
+          <div class="flex items-start gap-3 mb-4">
+            <span class="w-5 h-5 rounded-full bg-coral text-white font-heading font-semibold text-[11px] flex items-center justify-center flex-shrink-0 mt-0.5">
+              4
             </span>
-            <span class="font-body text-[15px] text-navy opacity-70">
-              — {{ t('meetings.ideas.step4Body') }}
-            </span>
+            <div>
+              <span class="font-heading font-semibold text-[13px] text-navy">
+                {{ t('meetings.ideas.step4Title') }}
+              </span>
+              <span class="font-body text-[13px] text-navy opacity-70 leading-relaxed">
+                — {{ t('meetings.ideas.step4Body') }}
+              </span>
+            </div>
           </div>
-        </div>
 
-        <!-- Steps Outro -->
-        <p class="font-body text-[14px] text-navy opacity-60 italic mt-4">
-          {{ t('meetings.ideas.stepsOutro') }}
-        </p>
+          <!-- Steps Outro -->
+          <p class="font-body text-[14px] text-navy opacity-60 italic mt-4">
+            {{ t('meetings.ideas.stepsOutro') }}
+          </p>
+        </div>
       </ContainerWrapper>
 
       <!-- Circle Motifs -->

@@ -1,5 +1,7 @@
 <script setup>
 import { computed } from 'vue'
+import { RouterLink } from 'vue-router'
+import { ArrowRight } from 'lucide-vue-next'
 import { useLanguage } from '@/composables/useLanguage.js'
 import { useSEO } from '@/composables/useSEO.js'
 import SectionWrapper from '@/components/layout/SectionWrapper.vue'
@@ -68,42 +70,29 @@ useSEO({
           </h3>
 
           <p class="font-body text-[16px] text-navy leading-relaxed opacity-90 mb-4">
-            {{ t('community.about.p1') }}
+            {{ t('community.about.p1a') }}<span class="text-coral">{{ t('community.about.p1highlight') }}</span>{{ t('community.about.p1b') }}
           </p>
 
           <p class="font-body text-[16px] text-navy leading-relaxed opacity-90 mb-4">
-            {{ t('community.about.p3') }}
+            {{ t('community.about.p3a') }}<span class="text-coral">{{ t('community.about.p3highlight') }}</span>
           </p>
 
           <p class="font-body text-[16px] text-navy leading-relaxed opacity-90 mb-4">
             {{ t('community.about.p4') }}
           </p>
 
-          <!-- List Section -->
-          <div class="mt-4">
-            <p class="font-body text-[16px] text-navy font-semibold mb-2">
-              {{ t('community.about.listIntro') }}
-            </p>
-
-            <ul class="space-y-1 mb-4">
-              <li class="flex items-start gap-2 font-body text-[16px] text-navy">
-                <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
-                <span>{{ t('community.about.list1') }}</span>
-              </li>
-              <li class="flex items-start gap-2 font-body text-[16px] text-navy">
-                <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
-                <span>{{ t('community.about.list2') }}</span>
-              </li>
-              <li class="flex items-start gap-2 font-body text-[16px] text-navy">
-                <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
-                <span>{{ t('community.about.list3') }}</span>
-              </li>
-              <li class="flex items-start gap-2 font-body text-[16px] text-navy">
-                <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
-                <span>{{ t('community.about.list4') }}</span>
-              </li>
-            </ul>
-          </div>
+          <RouterLink
+            :to="currentLang === 'cz' ? '/cz/jak-se-zapojit#involve' : '/es/como-participar#involve'"
+            class="inline-flex items-center gap-2
+                   border border-coral text-coral
+                   font-heading font-semibold text-[15px]
+                   px-5 py-2.5 rounded-lg mt-4
+                   hover:bg-coral hover:text-white
+                   transition-colors duration-200"
+          >
+            {{ t('community.about.joinCta') }}
+            <ArrowRight :size="16" :stroke-width="1.5" />
+          </RouterLink>
         </div>
       </div>
     </ContainerWrapper>
@@ -154,7 +143,7 @@ useSEO({
               </ul>
 
               <p class="font-body text-[16px] text-navy leading-relaxed opacity-90 mt-4">
-                {{ t('community.why.p7') }}
+                <span class="font-semibold text-navy">{{ t('community.why.p7highlight') }}</span>{{ t('community.why.p7b') }}
               </p>
             </div>
           </div>
@@ -190,37 +179,43 @@ useSEO({
           </p>
 
           <p class="font-body text-[16px] text-navy leading-relaxed opacity-90 mb-4">
-            {{ t('community.who.p9') }}
+            {{ t('community.who.p8b') }}
           </p>
 
           <p class="font-body text-[16px] text-navy leading-relaxed opacity-90 mb-4">
-            {{ t('community.who.p10') }}
+            <span class="text-coral">{{ t('community.who.p9highlight') }}</span>{{ t('community.who.p9b') }}
+          </p>
+
+          <p class="font-body text-[16px] text-navy leading-relaxed opacity-90 mb-4">
+            <span class="text-coral">{{ t('community.who.p10highlight') }}</span>{{ t('community.who.p10b') }}
           </p>
 
           <!-- Rules Section -->
           <div class="mt-4">
-            <p class="font-body text-[16px] text-navy font-semibold mb-2">
-              {{ t('community.who.rulesIntro') }}
-            </p>
+            <div class="bg-[#EEF6FB] border-l-4 border-sky rounded-r-xl px-6 py-5 mb-6">
+              <p class="font-body text-[16px] text-navy font-semibold mb-2">
+                {{ t('community.who.rulesIntro') }}
+              </p>
 
-            <ul class="space-y-1 mb-6">
-              <li class="flex items-start gap-2 font-body text-[16px] text-navy">
-                <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
-                <span>{{ t('community.who.rule1') }}</span>
-              </li>
-              <li class="flex items-start gap-2 font-body text-[16px] text-navy">
-                <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
-                <span>{{ t('community.who.rule2') }}</span>
-              </li>
-              <li class="flex items-start gap-2 font-body text-[16px] text-navy">
-                <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
-                <span>{{ t('community.who.rule3') }}</span>
-              </li>
-              <li class="flex items-start gap-2 font-body text-[16px] text-navy">
-                <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
-                <span>{{ t('community.who.rule4') }}</span>
-              </li>
-            </ul>
+              <ul class="space-y-1">
+                <li class="flex items-start gap-2 font-body text-[16px] text-navy">
+                  <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
+                  <span>{{ t('community.who.rule1') }}</span>
+                </li>
+                <li class="flex items-start gap-2 font-body text-[16px] text-navy">
+                  <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
+                  <span>{{ t('community.who.rule2') }}</span>
+                </li>
+                <li class="flex items-start gap-2 font-body text-[16px] text-navy">
+                  <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
+                  <span>{{ t('community.who.rule3') }}</span>
+                </li>
+                <li class="flex items-start gap-2 font-body text-[16px] text-navy">
+                  <span class="w-1.5 h-1.5 rounded-full bg-coral mt-2 flex-shrink-0"></span>
+                  <span>{{ t('community.who.rule4') }}</span>
+                </li>
+              </ul>
+            </div>
 
             <!-- Pull Quote -->
             <blockquote class="border-l-4 border-coral bg-[#FDF5F4] rounded-r-xl px-6 py-5 mt-6">

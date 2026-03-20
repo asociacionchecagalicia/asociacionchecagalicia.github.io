@@ -207,7 +207,7 @@ const roleCards = [
   />
 
   <!-- SECTION 6: TWO CARDS + COLLAPSIBLE ROLES -->
-  <SectionWrapper background="white">
+  <SectionWrapper id="involve" background="white">
     <div class="relative">
       <ContainerWrapper>
         <!-- Section Intro -->
@@ -275,6 +275,10 @@ const roleCards = [
 
             <p class="font-body text-[14px] text-navy opacity-70 italic mb-4">
               {{ t('participate.involve.core.subheading') }}
+            </p>
+
+            <p class="font-body text-[13px] text-navy opacity-55 italic mb-4">
+              {{ t('participate.involve.core.timeCommitment') }}
             </p>
 
             <ul class="space-y-2 mb-6">

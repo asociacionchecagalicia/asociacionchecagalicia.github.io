@@ -63,7 +63,7 @@
       "morning": "Buenos días",
       "afternoon": "Buenas tardes",
       "evening": "Buenas noches",
-      "body": "Bienvenidos a una comunidad donde el checo cobra vida lejos de casa. Somos una asociación legalmente registrada, reconocida por la Xunta de Galicia, que conecta a individuos, expatriados y familias checas que viven en Galicia, así como a sus parejas y familias españolas."
+      "body": "Bienvenidos a una comunidad donde el checo cobra vida lejos de casa. Somos una asociación legalmente registrada, reconocida por la Xunta de Galicia, que conecta a individuos, expatriados y familias checas que viven en Galicia — así como a sus parejas españolas y amigos de nuestra cultura."
     },
     "events": {
       "heading": "Próximos eventos",
@@ -100,14 +100,13 @@
     "about": {
       "heading": "Sobre nosotros y nuestro equipo",
       "subheading": "Todo empezó con tres familias.",
-      "p1": "Al principio éramos tres familias con niños pequeños. Nuestras parejas son españoles o expatriados y queríamos una sola cosa: que nuestros hijos escucharan checo también fuera de casa, que jugaran, rieran y crearan amistades de forma natural en ese idioma.",
-      "p3": "Con el tiempo también conocimos a otros checos y eslovacos en Galicia — familias, parejas y personas que simplemente querían conectar, compartir o hablar en su propio idioma de vez en cuando. Entonces entendimos que lo que vivíamos nosotros también podía tener sentido para otros.",
+      "p1a": "Al principio éramos tres familias con niños pequeños. Nuestras parejas son españoles o expatriados y queríamos una sola cosa: ",
+      "p1highlight": "que nuestros hijos escucharan checo también fuera de casa",
+      "p1b": ", que jugaran, rieran y crearan amistades de forma natural en ese idioma.",
+      "p3a": "Con el tiempo también conocimos a otros checos y eslovacos en Galicia — familias, parejas y personas que simplemente querían conectar, compartir o hablar en su propio idioma de vez en cuando. ",
+      "p3highlight": "Entonces entendimos que lo que vivíamos nosotros también podía tener sentido para otros.",
       "p4": "La comunidad fue fundada por tres mujeres, tres madres y tres iniciadoras, pero el equipo no termina con nosotras. La asociación se está construyendo poco a poco y cualquiera puede formar parte de ella.",
-      "listIntro": "Buscamos personas que quieran:",
-      "list1": "ayudar a organizar eventos",
-      "list2": "participar en la comunicación",
-      "list3": "aportar nuevas ideas",
-      "list4": "o simplemente echar una mano",
+      "joinCta": "Cómo participar",
       "imageAlt": "Familias paseando por el paisaje gallego"
     },
     "why": {
@@ -119,14 +118,18 @@
       "list2": "crear un lugar claro donde la comunidad pueda encontrarse",
       "list3": "compartir nuestro idioma, cultura y tradiciones",
       "list4": "construir algo con sentido a largo plazo",
-      "p7": "Una asociación oficial implica responsabilidad, pero también abre nuevas oportunidades. Creemos que la energía que invertimos volverá en forma de relaciones más fuertes, mejores actividades y una comunidad visible y reconocida.",
+      "p7highlight": "Una asociación oficial implica responsabilidad, pero también abre nuevas oportunidades.",
+      "p7b": " Creemos que la energía que invertimos volverá en forma de relaciones más fuertes, mejores actividades y una comunidad visible y reconocida.",
       "imageAlt": "Figuras de papel tomadas de la mano"
     },
     "who": {
       "heading": "Quién forma parte de la comunidad",
       "p8": "Nuestra comunidad crece alrededor del idioma checo, la cultura y los vínculos que queremos mantener en Galicia.",
-      "p9": "También damos la bienvenida a españoles y otros expatriados que sienten interés por la República Checa y su cultura y quieren conocerla de cerca a través de encuentros y experiencias compartidas.",
-      "p10": "La asociación se basa principalmente en el checo, pero el eslovaco también tiene su lugar. Siempre nos alegra recibir a familias y personas eslovacas — nuestros idiomas y culturas se complementan de forma natural.",
+      "p8b": "Nuestros eventos son abiertos y bilingües — no necesitas hablar checo para unirte.",
+      "p9highlight": "También damos la bienvenida a españoles y otros expatriados",
+      "p9b": " que sienten interés por la República Checa y su cultura y quieren conocerla de cerca a través de encuentros y experiencias compartidas.",
+      "p10highlight": "La asociación se basa principalmente en el checo, pero el eslovaco también tiene su lugar.",
+      "p10b": " Siempre nos alegra recibir a familias y personas eslovacas — nuestros idiomas y culturas se complementan de forma natural.",
       "rulesIntro": "Nuestra comunidad se basa en reglas simples:",
       "rule1": "sin odio ni discriminación",
       "rule2": "respeto por diferentes caminos de vida y opiniones",
@@ -168,11 +171,11 @@
       "card2": {
         "title": "Para adultos",
         "imageAlt": "Amigos adultos reuniéndose al atardecer",
-        "body": "La comunidad también es un espacio para adultos que quieren compartir la experiencia de vivir entre culturas. Los encuentros para adultos ofrecen: Buscamos ese ambiente natural donde no tienes que explicar tu historia cada vez.",
+        "body": "La comunidad también es un espacio para adultos que quieren compartir la experiencia de vivir entre culturas. Buscamos ese ambiente natural donde no tienes que explicar tu historia cada vez. Los encuentros para adultos ofrecen:",
         "list1": "un espacio para nuevos contactos y amistades",
         "list2": "networking informal",
         "list3": "intercambio de experiencias prácticas de la vida en la región",
-        "outro": "Al principio, lo más importante es conocernos. Nuestros encuentros son bilingües y abiertos — las parejas españolas son igual de bienvenidas."
+        "outro": "Nuestros encuentros son bilingües y abiertos — las parejas y amigos españoles son igual de bienvenidos."
       },
       "card3": {
         "title": "Eventos comunitarios y encuentros compartidos",
@@ -190,7 +193,8 @@
       "heading": "Espacio para tus ideas",
       "iconAlt": "Icono de calendario de eventos",
       "p1": "Una comunidad nace de personas que quieren compartir algo. Ya sea un paseo por la costa, una lectura para niños o el intercambio de experiencias de la vida en el extranjero.",
-      "p2": "Nuestra comunidad tiene una base natural en A Coruña, donde nos reunimos con más frecuencia. Sin embargo, también apoyamos con gusto la creación de actividades en otras ciudades. Para facilitar la planificación y mantener el ambiente cercano y no comercial de nuestros encuentros, estas actividades se realizan bajo el marco de la Asociación.",
+      "p2a": "Nuestra comunidad tiene una base natural en A Coruña, donde nos reunimos con más frecuencia.",
+      "p2b": "Sin embargo, también apoyamos con gusto la creación de actividades en otras ciudades. Para facilitar la planificación y mantener el ambiente cercano y no comercial de nuestros encuentros, estas actividades se realizan bajo el marco de la Asociación.",
       "subheading": "¿Tienes una idea para un encuentro? ¡Nos encantaría que te pusieras en contacto!",
       "intro": "¿Tienes una idea para un encuentro, taller o excursión interesante? Nuestra comunidad crece gracias a la iniciativa de sus miembros. La asociación funciona como una plataforma que te ayuda a dar vida a tu idea.",
       "benefitsHeading": "Lo que obtienes como organizador:",
@@ -273,7 +277,8 @@
       "core": {
         "tag": "Buscamos colaboradores",
         "heading": "Conviértase en un pilar de la asociación",
-        "subheading": "Participe en la gestión y el crecimiento de nuestra comunidad.",
+        "subheading": "La asociación la gestiona actualmente un pequeño equipo fundador y buscamos los primeros colaboradores que se unan. Participe en la gestión y el crecimiento de nuestra comunidad.",
+        "timeCommitment": "Calcule aproximadamente 2–4 horas al mes según su rol.",
         "item1": "Administración y gestión de comunidad",
         "item2": "Subvenciones y ayudas — España y República Checa",
         "item3": "Redes sociales y PR",
