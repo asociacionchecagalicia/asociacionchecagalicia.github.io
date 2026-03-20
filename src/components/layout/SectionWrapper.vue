@@ -2,7 +2,7 @@
   <section
     :id="id"
     :style="{ backgroundColor: background }"
-    class="pt-16 pb-16"
+    class="pt-16 pb-16 overflow-hidden"
   >
     <slot />
   </section>

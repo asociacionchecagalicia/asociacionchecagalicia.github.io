@@ -54,6 +54,11 @@ const router = createRouter({
       path: '/:lang/como-participar',
       name: 'participate-es',
       component: () => import('@/views/ParticipateView.vue')
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: () => import('@/views/NotFoundView.vue')
     }
   ],
   scrollBehavior(to, from, savedPosition) {

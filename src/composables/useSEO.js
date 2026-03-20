@@ -12,25 +12,26 @@ export function useSEO({ title, description }) {
   }
 
   const updateMetaTags = () => {
+    const titleValue = unref(title)
+    const descValue = unref(description)
+
     // Update document title
-    if (title) {
-      document.title = title
+    if (titleValue) {
+      document.title = titleValue
     }
 
     // Update or create meta description
-    if (description) {
+    if (descValue) {
       let metaDescription = document.querySelector('meta[name="description"]')
       if (!metaDescription) {
         metaDescription = document.createElement('meta')
         metaDescription.name = 'description'
         document.head.appendChild(metaDescription)
       }
-      metaDescription.content = description
+      metaDescription.content = descValue
     }
 
     // Open Graph tags
-    const titleValue = unref(title)
-    const descValue = unref(description)
 
     if (titleValue) upsertOgMeta('og:title', titleValue)
     if (descValue) upsertOgMeta('og:description', descValue)
