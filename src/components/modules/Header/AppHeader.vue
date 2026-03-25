@@ -137,8 +137,8 @@ onUnmounted(() => {
           </RouterLink>
         </nav>
 
-        <!-- Language Switcher (Right) - Desktop only -->
-        <div class="hidden xl:flex">
+        <!-- Language Switcher (Right) -->
+        <div class="flex">
           <LanguageSwitcher />
         </div>
       </div>

@@ -1,7 +1,6 @@
 <script setup>
 import { ref, watch, nextTick, onMounted, onUnmounted } from 'vue'
 import { RouterLink } from 'vue-router'
-import LanguageSwitcher from './LanguageSwitcher.vue'
 import { useLanguage } from '@/composables/useLanguage'
 
 const props = defineProps({
@@ -159,10 +158,5 @@ onUnmounted(() => {
         {{ t('header.nav.participate') }}
       </RouterLink>
     </nav>
-
-    <!-- Language Switcher -->
-    <div class="p-6 border-t border-[rgba(0,31,63,0.1)]">
-      <LanguageSwitcher variant="mobile-panel" />
-    </div>
   </aside>
 </template>
